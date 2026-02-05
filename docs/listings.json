@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/TUG_Portugal_2025-03-14/content.html",
+      "/talks/TUG_Brazil_2025-01-22/content.html",
+      "/talks/Tableau4NonProfits_2024-06-19/content.html",
+      "/talks/TUG_London_2024-02-29/content.html",
+      "/talks/TUG_Accessibility_2024-01-23/content.html"
+    ]
+  }
+]

@@ -3,20 +3,45 @@ project:
   output-dir: docs
 
 website:
-  title: "flavio.github.io"
+  title: "Flavio Matos"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: talks.qmd
+        text: Talks
+      - href: blog.qmd
+        text: Blog
+        
+
+  page-footer:
+    border: true
+    left: "© 2026 Flavio Matos"
+    center:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/flavio-matos/
+        target: _blank
+      - icon: github
+        href: https://github.com/MatosFlavio
+        target: _blank
+      - icon: envelope
+        href: mailto:flavio.matos@faktaconsulting.com
+        target: _blank
+      - icon: palette
+        href: https://public.tableau.com/app/profile/flavio.matos/vizzes
+        target: _blank
+      - icon: newspaper
+        href: https://flaviomatos.substack.com
+        target: _blank
+    right: Made with [Quarto](https://quarto.org/){target=_blank} and {{< fa solid lightbulb size=fa-xl >}}
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: 
+      light: flatly
+      dark: solar
     toc: true
-
-
-
+    page-layout: article

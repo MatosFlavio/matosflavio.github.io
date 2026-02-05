@@ -1,0 +1,19 @@
+---
+title: "Talks"
+format: html
+listing: 
+  contents: talks
+  type: default 
+  image-align: left
+  sort: "date desc" 
+  categories: true
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - event
+  page-size: 6
+comments: false
+---
+

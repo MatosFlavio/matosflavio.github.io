@@ -1,7 +1,10 @@
 ---
-title: "flavio.github.io"
+image: images/flavio-headshot.png
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+comments: false
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi there! I’m Flavio, a certified data analyst passionate about making data work for you. I turn complex information into clear insights, helping your business make smart decisions.

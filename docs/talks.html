@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Flavio Matos</title>
+<title>Talks – Flavio Matos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,10 +30,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -72,7 +75,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-date','listing-image','listing-event',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -260,11 +321,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link active" href="./talks.html" aria-current="page"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -280,46 +341,169 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QWNlc3NpYmlsaXR5">Acessibility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmVzdCUyMFByYWN0aWNlcw==">Best Practices <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tbXVuaXR5JTIwU3BvdGxpZ2h0">Community Spotlight <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaXR5LUxlZA==">Community-Led <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2xhY2s=">Slack <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFibGVhdQ==">Tableau <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Talks</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> 
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+  
 
-<p><br></p>
-<p>Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.</p>
-<p>I later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.</p>
-<p>Alongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.</p>
-<p>I am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a <a href="https://public.tableau.com/app/profile/flavio.matos/viz/ThePeriodicTableofWine/periodictableauofwineEN">Viz of the Day</a> award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City.</p>
-<section id="certifications" class="level3">
-<h3 data-anchor-id="certifications">Certifications</h3>
-<p><br></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/flavio-certifications.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="QmVzdCUyMFByYWN0aWNlcyUyQ0NvbW11bml0eSUyMFNwb3RsaWdodCUyQ0NvbW11bml0eS1MZWQ=" data-listing-date-sort="1741921200000" data-listing-file-modified-sort="1770297083553" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./talks/TUG_Portugal_2025-03-14/content.html" class="no-external">
+
+<img loading="lazy" src="./talks/TUG_Portugal_2025-03-14/cover_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/TUG_Portugal_2025-03-14/content.html" class="no-external">Dev Spotlight: Translating Dashboards for a Global Audience</a>
+</h3>
+<div class="delink listing-description"><a href="./talks/TUG_Portugal_2025-03-14/content.html" class="no-external">
+<p>We will explore practical ways to translate dashboards and make data visualizations accessible to global audiences, with a hands-on Tableau demonstration.</p>
+</a></div>
 </div>
-
-
-</section>
-</main></div>
-    </div>
-    <img src="images/flavio-headshot.png" class="about-image
-  round " style="height: 20em; width: 20em;">
-  </div>
+<div class="metadata">
+<a href="./talks/TUG_Portugal_2025-03-14/content.html" class="no-external">
+<div class="listing-date">
+Mar 14, 2025
 </div>
- <!-- /main -->
+<div class="metadata-value listing-event">
+TUG Lisbon, Online
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="VGFibGVhdSUyQ1NsYWNr" data-listing-date-sort="1737514800000" data-listing-file-modified-sort="1770301506666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./talks/TUG_Brazil_2025-01-22/content.html" class="no-external">
+
+<img loading="lazy" src="./talks/TUG_Brazil_2025-01-22/cover_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/TUG_Brazil_2025-01-22/content.html" class="no-external">Tableau and Slack Integration</a>
+</h3>
+<div class="delink listing-description"><a href="./talks/TUG_Brazil_2025-01-22/content.html" class="no-external">
+<p>This talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/TUG_Brazil_2025-01-22/content.html" class="no-external">
+<div class="listing-date">
+Jan 22, 2025
+</div>
+<div class="metadata-value listing-event">
+TUG Brazil, Online
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-categories="VGFibGVhdQ==" data-listing-date-sort="1718766000000" data-listing-file-modified-sort="1770301344227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./talks/Tableau4NonProfits_2024-06-19/content.html" class="no-external">
+
+<img loading="lazy" src="./talks/Tableau4NonProfits_2024-06-19/cover_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/Tableau4NonProfits_2024-06-19/content.html" class="no-external">How to empower your Nonprofit organisation with Tableau’s data insights</a>
+</h3>
+<div class="delink listing-description"><a href="./talks/Tableau4NonProfits_2024-06-19/content.html" class="no-external">
+<p>In this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/Tableau4NonProfits_2024-06-19/content.html" class="no-external">
+<div class="listing-date">
+Jun 19, 2024
+</div>
+<div class="metadata-value listing-event">
+Tableau for Non Profits, Online
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-categories="VGFibGVhdSUyQ0FjZXNzaWJpbGl0eSUyQ0Jlc3QlMjBQcmFjdGljZXM=" data-listing-date-sort="1709175600000" data-listing-file-modified-sort="1770299391914" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./talks/TUG_London_2024-02-29/content.html" class="no-external">
+
+<img loading="lazy" src="./talks/TUG_London_2024-02-29/cover_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/TUG_London_2024-02-29/content.html" class="no-external">Making Your Insights Global: The Power of Dashboard Translation</a>
+</h3>
+<div class="delink listing-description"><a href="./talks/TUG_London_2024-02-29/content.html" class="no-external">
+<p>In this session, we will explore how translating dashboards can broaden your impact and help your data reach a global audience, sharing practical ways to make visualizations more accessible</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/TUG_London_2024-02-29/content.html" class="no-external">
+<div class="listing-date">
+Feb 29, 2024
+</div>
+<div class="metadata-value listing-event">
+TUG London, London - UK
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-categories="VGFibGVhdQ==" data-listing-date-sort="1705978800000" data-listing-file-modified-sort="1769692913562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./talks/TUG_Accessibility_2024-01-23/content.html" class="no-external">
+
+<img loading="lazy" src="./talks/TUG_Accessibility_2024-01-23/cover_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/TUG_Accessibility_2024-01-23/content.html" class="no-external">Dashboard translation</a>
+</h3>
+<div class="delink listing-description"><a href="./talks/TUG_Accessibility_2024-01-23/content.html" class="no-external">
+
+</a></div>
+</div>
+<div class="metadata">
+<a href="./talks/TUG_Accessibility_2024-01-23/content.html" class="no-external">
+<div class="listing-date">
+Jan 23, 2024
+</div>
+<div class="metadata-value listing-event">
+TUG Accessibility, Online
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -335,6 +519,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

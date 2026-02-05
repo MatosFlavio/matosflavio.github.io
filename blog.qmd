@@ -1,0 +1,19 @@
+---
+title: "Blog"
+format: html
+listing: 
+  contents: blog 
+  type: default 
+  image-align: left
+  sort: "date desc" 
+  categories: true
+  fields: 
+    - title
+    - categories
+    - description
+    - date
+    - image
+  page-size: 5
+comments: false
+---
+

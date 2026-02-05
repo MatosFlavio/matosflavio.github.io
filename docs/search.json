@@ -4,13 +4,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.\nI later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.\nAlongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.\nI am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a Viz of the Day award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City.\n\nCertifications"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Dev Spotlight: Translating Dashboards for a Global Audience\n\n\nWe will explore practical ways to translate dashboards and make data visualizations accessible to global audiences, with a hands-on Tableau demonstration.\n\n\n\n\n\nMar 14, 2025\n\n\nTUG Lisbon, Online\n\n\n\n\n\n\n\n\n\n\n\n\nTableau and Slack Integration\n\n\nThis talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau.\n\n\n\n\n\nJan 22, 2025\n\n\nTUG Brazil, Online\n\n\n\n\n\n\n\n\n\n\n\n\nHow to empower your Nonprofit organisation with Tableau’s data insights\n\n\nIn this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights.\n\n\n\n\n\nJun 19, 2024\n\n\nTableau for Non Profits, Online\n\n\n\n\n\n\n\n\n\n\n\n\nMaking Your Insights Global: The Power of Dashboard Translation\n\n\nIn this session, we will explore how translating dashboards can broaden your impact and help your data reach a global audience, sharing practical ways to make visualizations more accessible\n\n\n\n\n\nFeb 29, 2024\n\n\nTUG London, London - UK\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard translation\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nTUG Accessibility, Online\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "flavio.github.io",
+    "title": "Flavio Matos",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi there! I’m Flavio, a certified data analyst passionate about making data work for you. I turn complex information into clear insights, helping your business make smart decisions."
   }
 ]

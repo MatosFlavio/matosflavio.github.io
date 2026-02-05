@@ -1,0 +1,10 @@
+---
+title: "How to empower your Nonprofit organisation with Tableau's data insights"
+description: "In this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights."
+author: "Flavio Matos"
+date: "June 19 2024"
+categories: [Tableau]
+event: "Tableau for Non Profits, Online"
+image: cover_image.png
+format: html
+---

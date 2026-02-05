@@ -1,5 +1,27 @@
 ---
 title: "About"
+image: images/flavio-headshot.png
+toc: false
+about: 
+  template: solana
+  image-shape: round
+  image-width: 20em
+comments: false
+page-layout: full
 ---
 
-About this site
+<br>
+
+Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.
+
+I later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.
+
+Alongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.
+
+I am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a [Viz of the Day](https://public.tableau.com/app/profile/flavio.matos/viz/ThePeriodicTableofWine/periodictableauofwineEN) award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City.
+
+### Certifications
+
+<br>
+
+![](images/flavio-certifications.png){fig-align="left"}

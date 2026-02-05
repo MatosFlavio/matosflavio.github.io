@@ -1,0 +1,11 @@
+---
+title: "Making Your Insights Global: The Power of Dashboard Translation"
+description: "In this session, we will explore how translating dashboards can broaden your impact and help your data reach a global audience, sharing practical ways to make visualizations more accessible"
+author: "Flavio Matos"
+date: "February 29 2024"
+categories: [Tableau, Acessibility, Best Practices]
+event: "TUG London, London - UK"
+image: cover_image.png
+format: html
+---
+

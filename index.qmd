@@ -1,5 +1,5 @@
 ---
-image: images/flavio-headshot.png
+image: images/flavio_headshot_bluebg.png
 toc: false
 about: 
   template: jolla

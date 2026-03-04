@@ -1,0 +1,80 @@
+---
+title: "What the F* is Cloud Computing? A Straightforward Introduction"
+description: "If you've ever found yourself wondering: What the heck is cloud computing? — you're not alone. Check out this blog to find out more about this buzzword!"
+author: "Flavio Matos"
+date: "May 21, 2024"
+categories: [Cloud Computing]
+image: preview_image.png
+---
+
+<br>
+
+In my previous article, I mentioned that I started my journey towards the AWS Data Engineer certification. If you missed it, check it out [here](https://www.linkedin.com/pulse/how-pass-aws-cloud-practitioner-exam-2-weeks-flavio-matos-aqz9e/?trackingId=BFKxaO94REipVAFfYpTx5w%3D%3D). I shared some tips for the exam and how to prepare for it **in just two weeks**.
+
+However, before talking more about the certification, let's step back and answer a simple question:
+
+## What is cloud computing anyway?
+
+There’s a formal definition of cloud computing wrote by Peter Mell and Timothy Grance published on the National Institute of Standards and Technology (NIST) under the U.S. Department of Commerce ([you can find the document here](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf)). According to the authors, cloud computing must have 5 essential characteristics. Some of these characteristics are logical and some of them may surprise you. I have attempted to simplify them further down to their core essence to keep this article -*less boring*- easy to read.
+
+### 1. On-demand self-service
+
+You can get the computing resources you need, like storage or virtual machines, **whenever you want without needing to talk to anyone in advance**.
+
+> If you can provision your resources whenever you want without involving humans and without delay, It meets this criteria. **If not, it’s probably not cloud**.
+
+### 2. Broad network access
+
+You can use cloud services from **anywhere** using any device with an internet connection, like your phone, tablet, or computer.
+
+> If you need to visit a data center or go to visitor’s facility to interact with your data and/or systems, it’s probably not cloud. If you need a private network link to access your environment, **it’s probably not cloud**.
+
+### 3. Resource pooling
+
+The cloud provider shares its resources among **many users**, allocating resources as needed without you knowing exactly **where** your data is stored.
+
+*- This characteristic relates to economies of scale. For instance, you can instruct AWS to deploy a virtual machine in a specific region, and they can use any data center or hardware vendor they choose. This **shifts the risk to the vendor (AWS in this example)**. This is beneficial because it allows businesses to focus on applications, data, and services as their core value, rather than on hardware.*
+
+>Pooling also facilitates scaling whenever a customer needs it. When you access storage or virtual machines, they come from a pool of resources rather than being dedicated solely to you. Despite sharing the same hardware with other customers, **each customer is isolated**, ensuring that your data is accessible only to you.
+
+### 4. Rapid elasticity
+
+You can quickly **get more** resources or **reduce** them based on your needs, almost like having an **unlimited supply** that you can tap into anytime.
+
+*- Scaling can occur rapidly in real time with no human interaction. Customers don’t need to worry about **overprovisioning** or **underprovisioning** – this is a **waste of money**. This is how companies like* [Amazon](https://www.linkedin.com/company/amazon/) *or* [Netflix](https://www.linkedin.com/company/netflix/) *can easily handle holiday sales or the load generated when the latest season of a popular series is released.*
+
+*- A cloud environment should not let you see capacity limits. If you need a hundred virtual machines or a thousand, you should be able to access them immediately. In the background, the provider manages the capacity in a pooled way, but from your perspective, you should never really see any capacity limitations.*
+
+> In my opinion, this is **THE most important benefit** of the cloud: the system scales in size in response to load. It's crucial to ensure that a potential cloud environment offers this capability to be truly considered a cloud service.
+
+### 5. Measured service
+
+You only **pay for what you use**, and you can track your usage. The cloud provider keeps track of how much you use and charges you accordingly.
+
+*- Traditional and non-cloud infrastructure worked using CapEx (capital expenditure) model. You paid for servers and hardware upfront, often resulting in excess capacity at the start, leading to wasted money. As demand grew, you would need to purchase more servers. If you scaled up too slowly, you faced performance issues or failures.*
+
+> A true cloud environment, however, offers on-demand billing. Your usage is continuously monitored, and you pay based on that usage (e.g., pay by time for virtual machines, or pay by gigabytes for storage services). With a **genuine cloud** platform, you generally **pay nothing in advance**.
+
+## Why Should I use cloud computing?
+
+Back in the 90s and 00s, if you didn’t have a PC at home, you would go to an **Internet Café** to use a computer with internet access for an hourly fee. This works as a good analogy for why you would use cloud computing. It's essentially a way to rent resources you don't have, and you pay based on your usage.
+
+Cloud computing offers a plenty of services for individuals and companies. Take AWS, for example. If you want to run a very complex algorithm in R or Python on your computer, it could take hours or even days to complete. By renting a more powerful computer (AWS EC2 Instance) with a better CPU and more RAM, you can run your script waaay faster and only pay for the time you use.
+
+Need a larger drive to back up your holiday photos or store data from your website? AWS's S3 service allows you to do that and pay only for the storage you use.
+
+For companies, the benefits are even more significant. You can migrate your entire data center to a cloud provider like AWS, which can **reduce costs** while **improving security and availability**. For example, Netflix uses cloud computing services to store and distribute movies globally, ensuring that a client in Brazil and another in Japan can watch with minimal latency.
+
+> In summary, you would use cloud computing to “rent” superior computer resources, improving performance, security, and cost efficiency for your scripts, business, and operations.
+
+## Who are the cloud providers?
+
+The most popular cloud computing services providers are [Amazon Web Services (AWS)](https://www.linkedin.com/company/amazon-web-services/) , Microsoft Azure , and [Google Cloud](https://www.linkedin.com/showcase/google-cloud/) . They offer similar services and products through their platforms, including virtual machines, storage services, and various tools to help businesses maximize the value of their data. These tools enable data analysis and leverage **machine learning** and **AI** to gain a competitive edge.
+
+In the next article, we will discuss what businesses need to do to reach the level where they can effectively use **machine learning** and **AI**. You will also be able to self-diagnose to determine where your business currently stands in the **data journey** and identify the steps needed to achieve AI capabilities.
+
+### 📱Social media
+
+You can find me on [LinkedIn](https://www.linkedin.com/in/flavio-matos/) and [Twitter](https://twitter.com/flaviomatos_uk)
+
+Check out my portfolio on [Tableau Public](https://public.tableau.com/app/profile/flavio.matos)

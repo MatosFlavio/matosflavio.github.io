@@ -1,0 +1,54 @@
+---
+title: "How to pass the AWS Cloud Practitioner exam in 2 weeks"
+description: "In this post, I'll share some insights into the exam and how I prepared for it in just 2 weeks."
+author: "Flavio Matos"
+date: "April 18, 2024"
+categories: [AWS, Certification, Cloud Computing]
+image: preview_image.png
+---
+
+<br> If you've come across this post, chances are you're considering taking the **AWS Cloud Practitioner** certification or you've already done so. This marks the beginning of my journey towards the AWS Data Engineer Certification, which is my ultimate goal. Every journey starts with a single step, and for me, it's the AWS Cloud Practitioner certification.
+
+The idea of getting the AWS Cloud Practitioner certification began with a simple desire to understand more about cloud computing. It all started when we had a session on AWS Cloud Services at the [The Data School UK](https://www.linkedin.com/company/the-data-school-uk/) . Knowing the importance of cloud services like [Amazon Web Services (AWS)](https://www.linkedin.com/company/amazon-web-services/) , [Microsoft Azure](https://www.linkedin.com/showcase/microsoft-azure/) , or [Google Cloud](https://www.linkedin.com/showcase/google-cloud/) for future clients, I was eager to explore more the subject.
+
+## The Exam
+
+The [AWS Certified Cloud Practitioner certification](https://aws.amazon.com/certification/certified-cloud-practitioner/?gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH51uS3nKKZpUdyDXWRMIhKqZFvHdmxR7Vittpm7rPkK7vCpfgBNIXc8aAuV-EALw_wcB&trk=dc557659-52ab-4a28-b2b8-0b1fb90235db&sc_channel=ps&ef_id=Cj0KCQjwiYOxBhC5ARIsAIvdH51uS3nKKZpUdyDXWRMIhKqZFvHdmxR7Vittpm7rPkK7vCpfgBNIXc8aAuV-EALw_wcB:G:s&s_kwcid=AL!4422!3!508672713814!e!!g!!aws%20cloud%20practitioner%20exam!11138243015!106933365302) is a great starting point for anyone beginning their journey into AWS. It validates a foundational, high-level understanding of AWS Cloud, services, and terminology.
+
+The exam consists of **65 questions**, which can be either multiple-choice or multiple-response format. You'll have **90 minutes** to answer all the questions, and the minimum **passing score is 700** (in a scale 100 – 1.000)
+
+You have the option to take the exam either in-person at a Pearson VUE testing center or through an online proctored exam. Additionally, the exam is available in several languages, including English, Chinese, Spanish, French, German, Italian, and Portuguese (Brazil).
+
+Once you pass the exam, your certification will be **valid for 3 years**.
+
+## How to prepare to the exam
+
+I found out about the [AWS Skills Builder](https://explore.skillbuilder.aws/learn) website and decided to binge-watch the [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/course/134/play/99519/aws-cloud-practitioner-essentials) training course. The course provided a solid foundation in cloud computing basics, with **easy-to-follow videos** and practical examples. Their use of the coffee shop analogy to explain all the services and solutions made complex concepts easy to grasp.
+
+I completed the training in the first week, and as I neared the end, I focused on preparing for the exam. The last module of the training is focused on the exam and includes a quiz to test your readiness. I took the quiz three times because I wanted to **score more than 90%** to ensure I was fully prepared.
+
+> **Tip:** For each quiz question, I tried to select the correct answer and explain why the other alternatives were incorrect.
+
+I also discovered a “podcast” called **AWS PartnerCast**, which provides tips for the exam and highlights important topics. This helped me identify key study areas and offered insights on exam settings such as time management and question types, giving me a better understanding of what to expect during the exam.
+
+So, **two weeks after** starting my journey towards AWS Cloud Practitioner certification, **I successfully passed the exam**.
+
+## Do I need to have any practical experience?
+
+With just 2 weeks of preparation and no prior practical experience, **it's totally possible to pass the exam**. However, it's important to note that it doesn't mean you have comprehensive knowledge of AWS cloud computing.
+
+The certification validates foundational, high-level understanding of AWS Cloud, its services, and terminology. **It’s a good starting point** on the AWS journey.
+
+Now that I have my certification, I requested to join projects for clients who use AWS to gain more hands-on experience. In one of these projects, I got to use CloudWatch, Athena, and S3. These were all tools that I had learned about during my preparation, and now I'm diving even deeper into understanding their functionalities and applications.
+
+## Next Steps
+
+I'm excited to continue my journey in cloud computing. My next goal is to pursue the **AWS Solutions Architect** certification, building on the knowledge I've gained.
+
+I'm thinking to share my experiences and insights along the way, and perhaps will be posting updates on my blog. Whether you're considering certification or have already taken the exam, I'd love to hear from you any tips, suggestions and questions you might have.
+
+### 📱Social media
+
+You can find me on [LinkedIn](https://www.linkedin.com/in/flavio-matos/) and [Twitter](https://twitter.com/flaviomatos_uk)
+
+Check out my portfolio on [Tableau Public](https://public.tableau.com/app/profile/flavio.matos)

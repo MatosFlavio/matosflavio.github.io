@@ -1,16 +1,26 @@
 ---
-title: "About"
-image: images/flavio-headshot.png
+title: "Flavio Matos"
+subtitle: "Data Analytics Consultant"
+image: images/flavio_headshot_bluebg.png
 toc: false
 about: 
-  template: solana
+  template: trestles
   image-shape: round
-  image-width: 20em
+  image-width: 15em
+  links:
+    - icon: github
+      href: https://github.com/MatosFlavio
+    - icon: linkedin
+      href: https://www.linkedin.com/in/flavio-matos/
+    - icon: envelope
+      href: mailto:flavio.matos@faktaconsulting.com
+     
 comments: false
 page-layout: full
 ---
 
-<br>
+
+## About Flavio
 
 Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.
 

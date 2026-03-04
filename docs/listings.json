@@ -1,7 +1,10 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/blog/cloud-computing-for-dummies/content.html",
+      "/blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html"
+    ]
   },
   {
     "listing": "/talks.html",

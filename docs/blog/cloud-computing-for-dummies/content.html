@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Flavio Matos">
+<meta name="dcterms.date" content="2024-05-21">
+<meta name="description" content="If you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!">
 
-<title>Blog – Flavio Matos</title>
+<title>What the F* is Cloud Computing? A Straightforward Introduction – Flavio Matos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-f7d2b2980468318b04e0c52838f8e54f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-646a37989e0aa1c8f6ac51bfa715c337.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-f7d2b2980468318b04e0c52838f8e54f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c41ede54e51c4c44a4ba59c4148f1ee0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-categories','listing-description','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -138,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Flavio Matos</span>
     </a>
   </div>
@@ -149,19 +92,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -176,21 +119,59 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QVdT">AWS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2VydGlmaWNhdGlvbg==">Certification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xvdWQlMjBDb21wdXRpbmc=">Cloud Computing <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-cloud-computing-anyway" id="toc-what-is-cloud-computing-anyway" class="nav-link active" data-scroll-target="#what-is-cloud-computing-anyway">What is cloud computing anyway?</a>
+  <ul class="collapse">
+  <li><a href="#on-demand-self-service" id="toc-on-demand-self-service" class="nav-link" data-scroll-target="#on-demand-self-service">1. On-demand self-service</a></li>
+  <li><a href="#broad-network-access" id="toc-broad-network-access" class="nav-link" data-scroll-target="#broad-network-access">2. Broad network access</a></li>
+  <li><a href="#resource-pooling" id="toc-resource-pooling" class="nav-link" data-scroll-target="#resource-pooling">3. Resource pooling</a></li>
+  <li><a href="#rapid-elasticity" id="toc-rapid-elasticity" class="nav-link" data-scroll-target="#rapid-elasticity">4. Rapid elasticity</a></li>
+  <li><a href="#measured-service" id="toc-measured-service" class="nav-link" data-scroll-target="#measured-service">5. Measured service</a></li>
+  </ul></li>
+  <li><a href="#why-should-i-use-cloud-computing" id="toc-why-should-i-use-cloud-computing" class="nav-link" data-scroll-target="#why-should-i-use-cloud-computing">Why Should I use cloud computing?</a></li>
+  <li><a href="#who-are-the-cloud-providers" id="toc-who-are-the-cloud-providers" class="nav-link" data-scroll-target="#who-are-the-cloud-providers">Who are the cloud providers?</a>
+  <ul class="collapse">
+  <li><a href="#social-media" id="toc-social-media" class="nav-link" data-scroll-target="#social-media">📱Social media</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">What the F* is Cloud Computing? A Straightforward Introduction</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Cloud Computing</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    If you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Flavio Matos </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 21, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -200,73 +181,76 @@ window.Quarto = {
 </header>
 
 
+<p><br></p>
+<p>In my previous article, I mentioned that I started my journey towards the AWS Data Engineer certification. If you missed it, check it out <a href="https://www.linkedin.com/pulse/how-pass-aws-cloud-practitioner-exam-2-weeks-flavio-matos-aqz9e/?trackingId=BFKxaO94REipVAFfYpTx5w%3D%3D">here</a>. I shared some tips for the exam and how to prepare for it <strong>in just two weeks</strong>.</p>
+<p>However, before talking more about the certification, let’s step back and answer a simple question:</p>
+<section id="what-is-cloud-computing-anyway" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-cloud-computing-anyway">What is cloud computing anyway?</h2>
+<p>There’s a formal definition of cloud computing wrote by Peter Mell and Timothy Grance published on the National Institute of Standards and Technology (NIST) under the U.S. Department of Commerce (<a href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf">you can find the document here</a>). According to the authors, cloud computing must have 5 essential characteristics. Some of these characteristics are logical and some of them may surprise you. I have attempted to simplify them further down to their core essence to keep this article -<em>less boring</em>- easy to read.</p>
+<section id="on-demand-self-service" class="level3">
+<h3 class="anchored" data-anchor-id="on-demand-self-service">1. On-demand self-service</h3>
+<p>You can get the computing resources you need, like storage or virtual machines, <strong>whenever you want without needing to talk to anyone in advance</strong>.</p>
+<blockquote class="blockquote">
+<p>If you can provision your resources whenever you want without involving humans and without delay, It meets this criteria. <strong>If not, it’s probably not cloud</strong>.</p>
+</blockquote>
+</section>
+<section id="broad-network-access" class="level3">
+<h3 class="anchored" data-anchor-id="broad-network-access">2. Broad network access</h3>
+<p>You can use cloud services from <strong>anywhere</strong> using any device with an internet connection, like your phone, tablet, or computer.</p>
+<blockquote class="blockquote">
+<p>If you need to visit a data center or go to visitor’s facility to interact with your data and/or systems, it’s probably not cloud. If you need a private network link to access your environment, <strong>it’s probably not cloud</strong>.</p>
+</blockquote>
+</section>
+<section id="resource-pooling" class="level3">
+<h3 class="anchored" data-anchor-id="resource-pooling">3. Resource pooling</h3>
+<p>The cloud provider shares its resources among <strong>many users</strong>, allocating resources as needed without you knowing exactly <strong>where</strong> your data is stored.</p>
+<p><em>- This characteristic relates to economies of scale. For instance, you can instruct AWS to deploy a virtual machine in a specific region, and they can use any data center or hardware vendor they choose. This <strong>shifts the risk to the vendor (AWS in this example)</strong>. This is beneficial because it allows businesses to focus on applications, data, and services as their core value, rather than on hardware.</em></p>
+<blockquote class="blockquote">
+<p>Pooling also facilitates scaling whenever a customer needs it. When you access storage or virtual machines, they come from a pool of resources rather than being dedicated solely to you. Despite sharing the same hardware with other customers, <strong>each customer is isolated</strong>, ensuring that your data is accessible only to you.</p>
+</blockquote>
+</section>
+<section id="rapid-elasticity" class="level3">
+<h3 class="anchored" data-anchor-id="rapid-elasticity">4. Rapid elasticity</h3>
+<p>You can quickly <strong>get more</strong> resources or <strong>reduce</strong> them based on your needs, almost like having an <strong>unlimited supply</strong> that you can tap into anytime.</p>
+<p><em>- Scaling can occur rapidly in real time with no human interaction. Customers don’t need to worry about <strong>overprovisioning</strong> or <strong>underprovisioning</strong> – this is a <strong>waste of money</strong>. This is how companies like</em> <a href="https://www.linkedin.com/company/amazon/">Amazon</a> <em>or</em> <a href="https://www.linkedin.com/company/netflix/">Netflix</a> <em>can easily handle holiday sales or the load generated when the latest season of a popular series is released.</em></p>
+<p><em>- A cloud environment should not let you see capacity limits. If you need a hundred virtual machines or a thousand, you should be able to access them immediately. In the background, the provider manages the capacity in a pooled way, but from your perspective, you should never really see any capacity limitations.</em></p>
+<blockquote class="blockquote">
+<p>In my opinion, this is <strong>THE most important benefit</strong> of the cloud: the system scales in size in response to load. It’s crucial to ensure that a potential cloud environment offers this capability to be truly considered a cloud service.</p>
+</blockquote>
+</section>
+<section id="measured-service" class="level3">
+<h3 class="anchored" data-anchor-id="measured-service">5. Measured service</h3>
+<p>You only <strong>pay for what you use</strong>, and you can track your usage. The cloud provider keeps track of how much you use and charges you accordingly.</p>
+<p><em>- Traditional and non-cloud infrastructure worked using CapEx (capital expenditure) model. You paid for servers and hardware upfront, often resulting in excess capacity at the start, leading to wasted money. As demand grew, you would need to purchase more servers. If you scaled up too slowly, you faced performance issues or failures.</em></p>
+<blockquote class="blockquote">
+<p>A true cloud environment, however, offers on-demand billing. Your usage is continuously monitored, and you pay based on that usage (e.g., pay by time for virtual machines, or pay by gigabytes for storage services). With a <strong>genuine cloud</strong> platform, you generally <strong>pay nothing in advance</strong>.</p>
+</blockquote>
+</section>
+</section>
+<section id="why-should-i-use-cloud-computing" class="level2">
+<h2 class="anchored" data-anchor-id="why-should-i-use-cloud-computing">Why Should I use cloud computing?</h2>
+<p>Back in the 90s and 00s, if you didn’t have a PC at home, you would go to an <strong>Internet Café</strong> to use a computer with internet access for an hourly fee. This works as a good analogy for why you would use cloud computing. It’s essentially a way to rent resources you don’t have, and you pay based on your usage.</p>
+<p>Cloud computing offers a plenty of services for individuals and companies. Take AWS, for example. If you want to run a very complex algorithm in R or Python on your computer, it could take hours or even days to complete. By renting a more powerful computer (AWS EC2 Instance) with a better CPU and more RAM, you can run your script waaay faster and only pay for the time you use.</p>
+<p>Need a larger drive to back up your holiday photos or store data from your website? AWS’s S3 service allows you to do that and pay only for the storage you use.</p>
+<p>For companies, the benefits are even more significant. You can migrate your entire data center to a cloud provider like AWS, which can <strong>reduce costs</strong> while <strong>improving security and availability</strong>. For example, Netflix uses cloud computing services to store and distribute movies globally, ensuring that a client in Brazil and another in Japan can watch with minimal latency.</p>
+<blockquote class="blockquote">
+<p>In summary, you would use cloud computing to “rent” superior computer resources, improving performance, security, and cost efficiency for your scripts, business, and operations.</p>
+</blockquote>
+</section>
+<section id="who-are-the-cloud-providers" class="level2">
+<h2 class="anchored" data-anchor-id="who-are-the-cloud-providers">Who are the cloud providers?</h2>
+<p>The most popular cloud computing services providers are <a href="https://www.linkedin.com/company/amazon-web-services/">Amazon Web Services (AWS)</a> , Microsoft Azure , and <a href="https://www.linkedin.com/showcase/google-cloud/">Google Cloud</a> . They offer similar services and products through their platforms, including virtual machines, storage services, and various tools to help businesses maximize the value of their data. These tools enable data analysis and leverage <strong>machine learning</strong> and <strong>AI</strong> to gain a competitive edge.</p>
+<p>In the next article, we will discuss what businesses need to do to reach the level where they can effectively use <strong>machine learning</strong> and <strong>AI</strong>. You will also be able to self-diagnose to determine where your business currently stands in the <strong>data journey</strong> and identify the steps needed to achieve AI capabilities.</p>
+<section id="social-media" class="level3">
+<h3 class="anchored" data-anchor-id="social-media">📱Social media</h3>
+<p>You can find me on <a href="https://www.linkedin.com/in/flavio-matos/">LinkedIn</a> and <a href="https://twitter.com/flaviomatos_uk">Twitter</a></p>
+<p>Check out my portfolio on <a href="https://public.tableau.com/app/profile/flavio.matos">Tableau Public</a></p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Q2xvdWQlMjBDb21wdXRpbmc=" data-listing-date-sort="1716260400000" data-listing-file-modified-sort="1772635427703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1069">
-<div class="thumbnail"><a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/cloud-computing-for-dummies/preview_image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">What the F* is Cloud Computing? A Straightforward Introduction</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQlMjBDb21wdXRpbmc='); return false;">Cloud Computing</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-<p>If you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-<div class="listing-date">
-May 21, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="QVdTJTJDQ2VydGlmaWNhdGlvbiUyQ0Nsb3VkJTIwQ29tcHV0aW5n" data-listing-date-sort="1713409200000" data-listing-file-modified-sort="1772635116883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="648">
-<div class="thumbnail"><a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/preview_image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">How to pass the AWS Cloud Practitioner exam in 2 weeks</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QVdT'); return false;">AWS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2VydGlmaWNhdGlvbg=='); return false;">Certification</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQlMjBDb21wdXRpbmc='); return false;">Cloud Computing</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-<p>In this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-<div class="listing-date">
-Apr 18, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

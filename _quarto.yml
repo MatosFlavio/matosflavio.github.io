@@ -14,11 +14,11 @@ website:
         text: Talks
       - href: blog.qmd
         text: Blog
+    
         
-
   page-footer:
     border: true
-    left: "© 2026 Flavio Matos"
+    left: "© 2026 Flavio Matos · Made with [Quarto](https://quarto.org/){target=_blank}"
     center:
       - icon: linkedin
         href: https://www.linkedin.com/in/flavio-matos/
@@ -35,13 +35,12 @@ website:
       - icon: newspaper
         href: https://flaviomatos.substack.com
         target: _blank
-    right: Made with [Quarto](https://quarto.org/){target=_blank} and {{< fa solid lightbulb size=fa-xl >}}
+    right: License · Contact
 
 
 format:
   html:
     theme: 
-      light: flatly
-      dark: solar
+      light: [styles.scss, flatly]
     toc: true
     page-layout: article

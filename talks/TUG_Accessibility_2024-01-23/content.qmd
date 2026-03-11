@@ -1,0 +1,13 @@
+---
+title: "Dashboard translation"
+description: ""
+author: "Flavio Matos"
+date: "January 23, 2024"
+categories: [Tableau]
+event: "TUG Accessibility, Online"
+image: cover_image.png
+format: html
+---
+
+
+

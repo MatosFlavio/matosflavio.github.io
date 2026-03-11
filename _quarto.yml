@@ -10,15 +10,10 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: portfolio.qmd
-        text: Portfolio
       - href: talks.qmd
         text: Talks
       - href: blog.qmd
         text: Blog
-      - href: contact.qmd
-        text: Contact
-  back-to-top-navigation: true
     
         
   page-footer:
@@ -40,16 +35,12 @@ website:
       - icon: newspaper
         href: https://flaviomatos.substack.com
         target: _blank
-    right: 
-      - text: License
-        href: license.qmd
-      - text: Contact
-        href: contact.qmd
+    right: License · Contact
 
 
 format:
   html:
     theme: 
-      light: [assets/styles.scss, flatly]
+      light: [styles.scss, flatly]
     toc: true
     page-layout: article

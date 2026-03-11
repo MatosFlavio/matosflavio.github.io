@@ -1,0 +1,11 @@
+---
+title: "Dev Spotlight: Translating Dashboards for a Global Audience"
+description: "We will explore practical ways to translate dashboards and make data visualizations accessible to global audiences, with a hands-on Tableau demonstration."
+author: "Flavio Matos"
+date: "March 14, 2025"
+categories: [Best Practices, Community Spotlight, Community-Led]
+event: "TUG Lisbon, Online"
+image: "cover_image.png"
+format: html
+---
+

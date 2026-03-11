@@ -7,7 +7,6 @@ about:
   template: trestles
   image-shape: round
   image-width: 15em
-  id: hero-heading
   links:
     - icon: github
       href: https://github.com/MatosFlavio
@@ -15,63 +14,24 @@ about:
       href: https://www.linkedin.com/in/flavio-matos/
     - icon: envelope
       href: mailto:flavio.matos@faktaconsulting.com
-format:
-    html:
-      page-layout: full
-      css: [assets/about.scss]
+     
 comments: false
+page-layout: full
 ---
 
-:::::: {#hero-heading}
-::: h1
-About
-:::
 
-Hello! I’m Flavio, a data analytics consultant with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My analytics journey began at Unilever, where I helped optimize production processes, reducing packaging waste and generating approximately £600k in savings.
+## About Flavio
 
-I later joined The Information Lab, delivering data solutions across finance, marketing, and operations using Tableau, Alteryx, and SQL. My work includes automating financial reporting, building ETL pipelines for marketing analytics, integrating APIs, and improving dashboard performance.
+Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.
 
-Alongside consulting, I have trained over 200 professionals in Tableau, Power BI, and Alteryx, while expanding my expertise into cloud platforms (Azure, AWS, GCP) and machine learning applications in agribusiness.
+I later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.
 
-I’m an active member of the data community, recognized as a Tableau Community Highlight and awarded [Viz of the Day](https://public.tableau.com/app/profile/flavio.matos/viz/ThePeriodicTableofWine/periodictableauofwineEN). I have presented at Tableau User Groups in New York, London, Portugal, and Brazil, was nominated for four awards at Tableau Conference 2024, and contribute to pro bono data visualization projects with NGOs, including work showcased at the United Nations Summit in New York.
+Alongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.
 
-::: h2
-Certifications
-:::
+I am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a [Viz of the Day](https://public.tableau.com/app/profile/flavio.matos/viz/ThePeriodicTableofWine/periodictableauofwineEN) award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City.
 
-::: {layout-ncol="7"}
-![](images/about/certifications/tableau.png)
+### Certifications
 
-![](images/about/certifications/micro.png)
+<br>
 
-![](images/about/certifications/Certification_Designer_Core.png)
-
-![](images/about/certifications/Certification_Designer_Advanced.png)
-
-![](images/about/certifications/ML%20alterx.png)
-
-![](images/about/certifications/aws_tech.png)
-
-![](images/about/certifications/aws_pract.png)
-:::
-::::::
-
-## Clients I have worked with
-
-::: {layout-ncol="8"}
-![](images/about/clients/vmo.png)
-
-![](images/about/clients/lloyds.png)
-
-![](images/about/clients/IAG.png)
-
-![](images/about/clients/informa.png)
-
-![](images/about/clients/sjp.png)
-
-![](images/about/clients/JW.png)
-
-![](images/about/clients/northern.png)
-
-![](images/about/clients/TeF.png)
-:::
+![](images/flavio-certifications.png){fig-align="left"}

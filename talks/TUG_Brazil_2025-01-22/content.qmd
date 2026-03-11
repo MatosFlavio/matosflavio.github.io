@@ -1,0 +1,11 @@
+---
+title: "Tableau and Slack Integration"
+description: "This talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau."
+author: "Flavio Matos"
+date: "January 22, 2025"
+categories: [Tableau, Slack]
+event: "TUG Brazil, Online"
+image: cover_image.png
+format: html
+---
+

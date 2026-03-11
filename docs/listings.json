@@ -9,11 +9,30 @@
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/TUG_Portugal_2025-03-14/content.html",
-      "/talks/TUG_Brazil_2025-01-22/content.html",
-      "/talks/Tableau4NonProfits_2024-06-19/content.html",
-      "/talks/TUG_London_2024-02-29/content.html",
-      "/talks/TUG_Accessibility_2024-01-23/content.html"
+      "/talks/2025-03-14_TUG_Portugal/content.html",
+      "/talks/2025-01-22_TUG_Brazil/content.html",
+      "/talks/2024-06-19_Tableau4NonProfits/content.html",
+      "/talks/2024-02-29_TUG_London/content.html",
+      "/talks/2024-01-23_TUG_Accessibility/content.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/portfolio/periodic-table-wine/content.html",
+      "/talks/2025-03-14_TUG_Portugal/content.html",
+      "/talks/2025-01-22_TUG_Brazil/content.html",
+      "/talks/2024-06-19_Tableau4NonProfits/content.html",
+      "/talks/2024-02-29_TUG_London/content.html",
+      "/talks/2024-01-23_TUG_Accessibility/content.html",
+      "/blog/cloud-computing-for-dummies/content.html",
+      "/blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/periodic-table-wine/content.html"
     ]
   }
 ]

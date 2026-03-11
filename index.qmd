@@ -1,10 +1,172 @@
 ---
-image: images/flavio_headshot_bluebg.png
-toc: false
-about: 
-  template: jolla
+title: ""
+about:
+  id: hero-heading
+  template: solana
+  image: images/flavio_headshot_bluebg.png
+  image-width: 25em
   image-shape: round
-  image-width: 17em
+listing:
+  - id: projects
+    contents:
+      - "portfolio/*/content.qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: "200"
+
+  - id: talks
+    contents:
+      - "talks/*/content.qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: "200"
+
+  - id: blog
+    contents:
+      - "blog/*/content.qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: "200"
+format:
+  html:
+    page-layout: full
+    css: [assets/index.scss]
+toc: false
 comments: false
+extensions:
+  iconify:
+    style: "color: #0F2F3A;"
 ---
-Hi there! I’m Flavio, a certified data analyst passionate about making data work for you. I turn complex information into clear insights, helping your business make smart decisions.
+
+:::: {#hero-heading}
+### DATA ANALYTICS CONSULTANT · 15+ CLIENTS · 8 INDUSTRIES
+
+# Turning complex data into answers that drive business decisions
+
+Building data solutions aligned with your business goals.
+
+::: hero-icons
+{{< iconify simple-icons tableau size=2x >}}
+{{< iconify simple-icons powerbi size=2x >}}
+{{< iconify fa6-solid database size=2x >}}
+{{< iconify fa6-brands python size=2x >}}
+{{< iconify simple-icons dbt size=2x >}}
+{{< iconify fa6-solid file-excel size=2x >}}
+:::
+
+<a href="contact.qmd" 
+class="button"> Contact Me </a>
+::::
+
+:::: clients-band
+## Organizations I've worked with
+
+::: {.clients-logos layout-ncol="8"}
+![](images/about/clients/vmo.png)
+
+![](images/about/clients/lloyds.png)
+
+![](images/about/clients/IAG.png) 
+
+![](images/about/clients/informa.png)
+
+![](images/about/clients/sjp.png) 
+
+![](images/about/clients/JW.png)
+
+![](images/about/clients/northern.png) 
+
+![](images/about/clients/TeF.png)
+:::
+::::
+
+::: section-intro
+## How I help organizations turn data into decisions
+:::
+
+:::::: {.grid .services-grid}
+::: {.g-col-12 .g-col-lg-4 .service-card}
+{{< iconify fa6-solid database size=2x >}}
+
+### Data Engineering
+
+Design reliable data pipelines, transform raw data into structured
+datasets, and create scalable foundations for analytics.
+:::
+
+::: {.g-col-12 .g-col-lg-4 .service-card}
+{{< iconify fa6-solid chart-line size=2x >}}
+
+### Analytics & Modeling
+
+Use statistical models and exploratory analysis to uncover patterns,
+measure performance, and support strategic decisions.
+:::
+
+::: {.g-col-12 .g-col-lg-4 .service-card}
+{{< iconify fa6-solid chart-simple size=2x >}}
+
+### Dashboards & BI
+
+Build clear and actionable dashboards in Tableau or Power BI that turn
+complex data into accessible insights.
+:::
+::::::
+
+::: {.lately-section}
+
+## Latest work
+
+:::: {.grid}
+
+::: {.g-col-4}
+
+#### Projects
+::: {#projects}
+:::
+
+[See all →](portfolio.qmd){.about-links}
+
+:::
+
+::: {.g-col-4}
+
+#### Talks
+::: {#talks}
+:::
+
+[See all →](talks.qmd){.about-links}
+
+:::
+
+::: {.g-col-4}
+
+#### Blog
+::: {#blog}
+:::
+
+[See all →](blog.qmd){.about-links}
+
+:::
+
+::::
+
+:::

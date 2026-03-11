@@ -1,0 +1,14 @@
+---
+title: "CC BY-NC-SA 4.0 license"
+---
+
+© 2026 Flavio Matos
+
+The opinions expressed on this website are solely my own and do not necessarily reflect the views of my employer or any organizations with which I am affiliated.
+
+Unless otherwise stated, all content on this site is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+
+{{< fa brands creative-commons size=2x >}} {{< fa brands creative-commons-by size=2x >}} {{< fa brands creative-commons-nc size=2x >}} {{< fa brands creative-commons-sa size=2x >}}
+
+You are free to share and adapt the material provided that appropriate credit is given, a link to the license is included, and any changes are clearly indicated. Commercial use of this material is not permitted.

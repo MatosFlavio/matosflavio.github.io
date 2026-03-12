@@ -3,7 +3,7 @@ title: "Contact Me"
 format:
   html:
     page-layout: full
-    css: assets/contact.scss
+    css: assets/contact.css
 ---
 
 :::: {.columns}

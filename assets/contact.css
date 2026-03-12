@@ -56,20 +56,14 @@ textarea {
 
 button {
   align-self: flex-end;
-
   background-color: #BF5B04;
   color: white;
-
   border: none;
   border-radius: 30px;
-
   padding: 14px 28px;
-
   font-size: 16px;
   font-weight: 600;
-
   cursor: pointer;
-
   transition: background 0.2s ease;
 }
 

@@ -19,6 +19,14 @@ website:
       - href: contact.qmd
         text: Contact
   back-to-top-navigation: true
+  open-graph:
+    locale: en_GB
+  google-analytics:
+    tracking-id: "G-Y63K6B8EJ2"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    prefs-text: "Cookie Preferences"
     
         
   page-footer:

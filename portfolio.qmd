@@ -18,7 +18,7 @@ listing:
 format: 
   html: 
     page-layout: full
-    css: assets/portfolio.scss
+    css: assets/portfolio.css
 title-block-banner: false
 ---
 

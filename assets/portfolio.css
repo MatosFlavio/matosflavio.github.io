@@ -1,4 +1,4 @@
-// Title
+/* Title */
 
 /* Move the whole title block down and center it */
 .quarto-title-block {
@@ -29,14 +29,14 @@
   margin-bottom: 40px; /* space before grid */
 }
 
-// Grid layout
+/* Grid layout */
 
 .quarto-listing-container-grid {
   justify-content: center;
 }
 
 
-// Cards
+/* Cards */
 
 .quarto-grid-item {
   border: 1.2px solid #e6e6e6;
@@ -54,7 +54,7 @@
 }
 
 
-// Image
+/* Image */
 
 .quarto-grid-item img {
   border-radius: 15px;

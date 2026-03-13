@@ -1,0 +1,104 @@
+
+// About header
+
+
+/* Title spacing */
+#title-block-header {
+  margin-bottom: 0;
+}
+
+/* Subtitle font */
+.about-links.subtitle {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.quarto-title-block .subtitle {
+  margin-bottom: 0.1rem;
+}
+
+.about-entity .about-links {
+  justify-content: center !important;
+  column-gap: 0.6em !important;
+  font-size: 1.9em !important;
+  margin-top: 0;
+}
+
+/* Individual social icons */
+.about-entity .about-link {
+  padding: 0.25em 0.35em !important;
+  border: none !important;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover effect */
+.about-entity .about-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+
+// Hero text area
+
+/* About text readability */
+
+#hero-heading {
+  max-width: 1100px;
+  margin: auto;
+  line-height: 1.65;
+  font-size: 1.08rem;
+}
+
+/* About section title */
+
+#hero-heading .h1 {
+  margin-bottom: 1rem;
+}
+
+
+// Clients area
+
+.quarto-layout-panel {
+  margin-top: 2em;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .quarto-layout-cell {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 60px;
+    max-height: 60px;
+    display: block;
+
+    /* Subtle grayscale effect */
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+
+    &:hover {
+      filter: grayscale(0%);
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+}
+
+
+// Page width control
+
+/* Expand overall page width */
+
+.page-layout-full #quarto-content main {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

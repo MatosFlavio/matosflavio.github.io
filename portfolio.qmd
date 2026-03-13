@@ -1,0 +1,24 @@
+---
+title: "Portfolio"
+author: ""
+comment: false
+description: "This portfolio includes works, software, and tools I have designed or contributed to turn data into decisions"
+listing: 
+  contents: portfolio
+  type: grid
+  fields: 
+    - title
+    - categories
+    - description
+    - date
+    - image
+  sort: "date-modified desc"
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+    css: assets/portfolio.scss
+title-block-banner: false
+---
+

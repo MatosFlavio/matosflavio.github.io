@@ -56,22 +56,4 @@ Certifications
 :::
 ::::::
 
-## Clients I have worked with
 
-::: {layout-ncol="8"}
-![](images/about/clients/vmo.png)
-
-![](images/about/clients/lloyds.png)
-
-![](images/about/clients/IAG.png)
-
-![](images/about/clients/informa.png)
-
-![](images/about/clients/sjp.png)
-
-![](images/about/clients/JW.png)
-
-![](images/about/clients/northern.png)
-
-![](images/about/clients/TeF.png)
-:::

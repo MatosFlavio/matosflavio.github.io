@@ -18,7 +18,7 @@ about:
 format:
     html:
       page-layout: full
-      css: [assets/about.scss]
+      css: assets/about.css
 comments: false
 ---
 

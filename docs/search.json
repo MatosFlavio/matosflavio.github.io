@@ -1,45 +1,171 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Flavio Matos",
-    "section": "",
-    "text": "Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.\nI later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.\nAlongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.\nI am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a Viz of the Day award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City."
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "What the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items"
+    "text": "What the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "CC BY-NC-SA 4.0 license",
+    "section": "",
+    "text": "© 2026 Flavio Matos\nThe opinions expressed on this website are solely my own and do not necessarily reflect the views of my employer or any organizations with which I am affiliated.\nUnless otherwise stated, all content on this site is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA) license.\n   \nYou are free to share and adapt the material provided that appropriate credit is given, a link to the license is included, and any changes are clearly indicated. Commercial use of this material is not permitted.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Flavio Matos",
+    "section": "",
+    "text": "About\n\nHello! I’m Flavio, a data analytics consultant with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My analytics journey began at Unilever, where I helped optimize production processes, reducing packaging waste and generating approximately £600k in savings.\nI later joined The Information Lab, delivering data solutions across finance, marketing, and operations using Tableau, Alteryx, and SQL. My work includes automating financial reporting, building ETL pipelines for marketing analytics, integrating APIs, and improving dashboard performance.\nAlongside consulting, I have trained over 200 professionals in Tableau, Power BI, and Alteryx, while expanding my expertise into cloud platforms (Azure, AWS, GCP) and machine learning applications in agribusiness.\nI’m an active member of the data community, recognized as a Tableau Community Highlight and awarded Viz of the Day. I have presented at Tableau User Groups in New York, London, Portugal, and Brazil, was nominated for four awards at Tableau Conference 2024, and contribute to pro bono data visualization projects with NGOs, including work showcased at the United Nations Summit in New York.\n\nCertifications"
+  },
+  {
+    "objectID": "about.html#clients-i-have-worked-with",
+    "href": "about.html#clients-i-have-worked-with",
+    "title": "Flavio Matos",
+    "section": "Clients I have worked with",
+    "text": "Clients I have worked with"
+  },
+  {
+    "objectID": "blog/cloud-computing-for-dummies/content.html",
+    "href": "blog/cloud-computing-for-dummies/content.html",
+    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
+    "section": "",
+    "text": "In my previous article, I mentioned that I started my journey towards the AWS Data Engineer certification. If you missed it, check it out here. I shared some tips for the exam and how to prepare for it in just two weeks.\nHowever, before talking more about the certification, let’s step back and answer a simple question:"
+  },
+  {
+    "objectID": "blog/cloud-computing-for-dummies/content.html#what-is-cloud-computing-anyway",
+    "href": "blog/cloud-computing-for-dummies/content.html#what-is-cloud-computing-anyway",
+    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
+    "section": "What is cloud computing anyway?",
+    "text": "What is cloud computing anyway?\nThere’s a formal definition of cloud computing wrote by Peter Mell and Timothy Grance published on the National Institute of Standards and Technology (NIST) under the U.S. Department of Commerce (you can find the document here). According to the authors, cloud computing must have 5 essential characteristics. Some of these characteristics are logical and some of them may surprise you. I have attempted to simplify them further down to their core essence to keep this article -less boring- easy to read.\n\n1. On-demand self-service\nYou can get the computing resources you need, like storage or virtual machines, whenever you want without needing to talk to anyone in advance.\n\nIf you can provision your resources whenever you want without involving humans and without delay, It meets this criteria. If not, it’s probably not cloud.\n\n\n\n2. Broad network access\nYou can use cloud services from anywhere using any device with an internet connection, like your phone, tablet, or computer.\n\nIf you need to visit a data center or go to visitor’s facility to interact with your data and/or systems, it’s probably not cloud. If you need a private network link to access your environment, it’s probably not cloud.\n\n\n\n3. Resource pooling\nThe cloud provider shares its resources among many users, allocating resources as needed without you knowing exactly where your data is stored.\n- This characteristic relates to economies of scale. For instance, you can instruct AWS to deploy a virtual machine in a specific region, and they can use any data center or hardware vendor they choose. This shifts the risk to the vendor (AWS in this example). This is beneficial because it allows businesses to focus on applications, data, and services as their core value, rather than on hardware.\n\nPooling also facilitates scaling whenever a customer needs it. When you access storage or virtual machines, they come from a pool of resources rather than being dedicated solely to you. Despite sharing the same hardware with other customers, each customer is isolated, ensuring that your data is accessible only to you.\n\n\n\n4. Rapid elasticity\nYou can quickly get more resources or reduce them based on your needs, almost like having an unlimited supply that you can tap into anytime.\n- Scaling can occur rapidly in real time with no human interaction. Customers don’t need to worry about overprovisioning or underprovisioning – this is a waste of money. This is how companies like Amazon or Netflix can easily handle holiday sales or the load generated when the latest season of a popular series is released.\n- A cloud environment should not let you see capacity limits. If you need a hundred virtual machines or a thousand, you should be able to access them immediately. In the background, the provider manages the capacity in a pooled way, but from your perspective, you should never really see any capacity limitations.\n\nIn my opinion, this is THE most important benefit of the cloud: the system scales in size in response to load. It’s crucial to ensure that a potential cloud environment offers this capability to be truly considered a cloud service.\n\n\n\n5. Measured service\nYou only pay for what you use, and you can track your usage. The cloud provider keeps track of how much you use and charges you accordingly.\n- Traditional and non-cloud infrastructure worked using CapEx (capital expenditure) model. You paid for servers and hardware upfront, often resulting in excess capacity at the start, leading to wasted money. As demand grew, you would need to purchase more servers. If you scaled up too slowly, you faced performance issues or failures.\n\nA true cloud environment, however, offers on-demand billing. Your usage is continuously monitored, and you pay based on that usage (e.g., pay by time for virtual machines, or pay by gigabytes for storage services). With a genuine cloud platform, you generally pay nothing in advance."
+  },
+  {
+    "objectID": "blog/cloud-computing-for-dummies/content.html#why-should-i-use-cloud-computing",
+    "href": "blog/cloud-computing-for-dummies/content.html#why-should-i-use-cloud-computing",
+    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
+    "section": "Why Should I use cloud computing?",
+    "text": "Why Should I use cloud computing?\nBack in the 90s and 00s, if you didn’t have a PC at home, you would go to an Internet Café to use a computer with internet access for an hourly fee. This works as a good analogy for why you would use cloud computing. It’s essentially a way to rent resources you don’t have, and you pay based on your usage.\nCloud computing offers a plenty of services for individuals and companies. Take AWS, for example. If you want to run a very complex algorithm in R or Python on your computer, it could take hours or even days to complete. By renting a more powerful computer (AWS EC2 Instance) with a better CPU and more RAM, you can run your script waaay faster and only pay for the time you use.\nNeed a larger drive to back up your holiday photos or store data from your website? AWS’s S3 service allows you to do that and pay only for the storage you use.\nFor companies, the benefits are even more significant. You can migrate your entire data center to a cloud provider like AWS, which can reduce costs while improving security and availability. For example, Netflix uses cloud computing services to store and distribute movies globally, ensuring that a client in Brazil and another in Japan can watch with minimal latency.\n\nIn summary, you would use cloud computing to “rent” superior computer resources, improving performance, security, and cost efficiency for your scripts, business, and operations."
+  },
+  {
+    "objectID": "blog/cloud-computing-for-dummies/content.html#who-are-the-cloud-providers",
+    "href": "blog/cloud-computing-for-dummies/content.html#who-are-the-cloud-providers",
+    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
+    "section": "Who are the cloud providers?",
+    "text": "Who are the cloud providers?\nThe most popular cloud computing services providers are Amazon Web Services (AWS) , Microsoft Azure , and Google Cloud . They offer similar services and products through their platforms, including virtual machines, storage services, and various tools to help businesses maximize the value of their data. These tools enable data analysis and leverage machine learning and AI to gain a competitive edge.\nIn the next article, we will discuss what businesses need to do to reach the level where they can effectively use machine learning and AI. You will also be able to self-diagnose to determine where your business currently stands in the data journey and identify the steps needed to achieve AI capabilities.\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
+  },
+  {
+    "objectID": "talks/2025-03-14_TUG_Portugal/content.html",
+    "href": "talks/2025-03-14_TUG_Portugal/content.html",
+    "title": "Dev Spotlight: Translating Dashboards for a Global Audience",
+    "section": "",
+    "text": "About the event\nJoin us for the very first Dev Spotlight session at the Lisbon Tableau User Group!\nHave you ever thought about bringing your insights to a wider, global audience?\nIn this session, I will demonstrate a practical way to translate dashboards and make your visualizations accessible to people all over the world. Together, we will explore how your data can “speak” different languages to amplify its impact. Of course, we will have a live Tableau demonstration so you can start applying these techniques right away!\n🚀 Don’t miss this opportunity to learn and exchange experiences with the community!\nPlease note: This event will be conducted in Portuguese.\n\n\nRecording\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2025-01-22_TUG_Brazil/content.html",
+    "href": "talks/2025-01-22_TUG_Brazil/content.html",
+    "title": "Tableau and Slack Integration",
+    "section": "",
+    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
+  },
+  {
+    "objectID": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
+    "href": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
+    "title": "Tableau and Slack Integration",
+    "section": "",
+    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
+  },
+  {
+    "objectID": "talks/2024-02-29_TUG_London/content.html",
+    "href": "talks/2024-02-29_TUG_London/content.html",
+    "title": "Making Your Insights Global: The Power of Dashboard Translation",
+    "section": "",
+    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
+  },
+  {
+    "objectID": "talks/2024-02-29_TUG_London/content.html#about-the-event",
+    "href": "talks/2024-02-29_TUG_London/content.html#about-the-event",
+    "title": "Making Your Insights Global: The Power of Dashboard Translation",
+    "section": "",
+    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "If you are interested in data analytics consultation, data analysis services, or personalized training, please reach out to me here and I will get back to you as soon as possible. I look forward to hearing from you!\n\n\n  \n  \n  \n\n\n\n\n\nYour Name \nEmail \nMessage\n\n\nSubmit\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Dev Spotlight: Translating Dashboards for a Global Audience\n\n\nWe will explore practical ways to translate dashboards and make data visualizations accessible to global audiences, with a hands-on Tableau demonstration.\n\n\n\n\n\nMar 14, 2025\n\n\nTUG Lisbon, Online\n\n\n\n\n\n\n\n\n\n\n\n\nTableau and Slack Integration\n\n\nThis talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau.\n\n\n\n\n\nJan 22, 2025\n\n\nTUG Brazil, Online\n\n\n\n\n\n\n\n\n\n\n\n\nHow to empower your Nonprofit organisation with Tableau’s data insights\n\n\nIn this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights.\n\n\n\n\n\nJun 19, 2024\n\n\nTableau for Non Profits, Online\n\n\n\n\n\n\n\n\n\n\n\n\nMaking Your Insights Global: The Power of Dashboard Translation\n\n\nIn this session, we will explore how translating dashboards can broaden your impact and help your data reach a global audience, sharing practical ways to make visualizations more accessible\n\n\n\n\n\nFeb 29, 2024\n\n\nTUG London, London - UK\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard translation\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nTUG Accessibility, Online\n\n\n\n\n\nNo matching items"
+    "text": "Dev Spotlight: Translating Dashboards for a Global Audience\n\n\nWe will explore practical ways to translate dashboards and make data visualizations accessible to global audiences, with a hands-on Tableau demonstration.\n\n\n\n\n\nMar 14, 2025\n\n\nTUG Lisbon, Online\n\n\n\n\n\n\n\n\n\n\n\n\nTableau and Slack Integration\n\n\nThis talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau.\n\n\n\n\n\nJan 22, 2025\n\n\nTUG Brazil, Online\n\n\n\n\n\n\n\n\n\n\n\n\nHow to empower your Nonprofit organisation with Tableau’s data insights\n\n\nIn this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights.\n\n\n\n\n\nJun 19, 2024\n\n\nTableau for Non Profits, Online\n\n\n\n\n\n\n\n\n\n\n\n\nMaking Your Insights Global: The Power of Dashboard Translation\n\n\nIn this session, we will explore how translating dashboards can broaden your impact and help your data reach a global audience, sharing practical ways to make visualizations more accessible\n\n\n\n\n\nFeb 29, 2024\n\n\nTUG London, London - UK\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard translation\n\n\nImagine breaking down language barriers and inviting a global audience into the conversation. In this session, I share a straightforward method to translate your dashboards.\n\n\n\n\n\nJan 23, 2024\n\n\nTUG Accessibility, Online\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html",
+    "href": "talks/2024-06-19_Tableau4NonProfits/content.html",
+    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
+    "section": "",
+    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+  },
+  {
+    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
+    "href": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
+    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
+    "section": "",
+    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+  },
+  {
+    "objectID": "talks/2024-01-23_TUG_Accessibility/content.html",
+    "href": "talks/2024-01-23_TUG_Accessibility/content.html",
+    "title": "Dashboard translation",
+    "section": "",
+    "text": "During this session, presented at the Accessibility TUG meetup, I share a straightforward method to translate your dashboards.\nWhy? It’s never just about language – it’s about broadening your audience. Break down communication barriers and let your data speak to people from diverse backgrounds and cultures."
+  },
+  {
+    "objectID": "talks/2024-01-23_TUG_Accessibility/content.html#about-the-event",
+    "href": "talks/2024-01-23_TUG_Accessibility/content.html#about-the-event",
+    "title": "Dashboard translation",
+    "section": "",
+    "text": "During this session, presented at the Accessibility TUG meetup, I share a straightforward method to translate your dashboards.\nWhy? It’s never just about language – it’s about broadening your audience. Break down communication barriers and let your data speak to people from diverse backgrounds and cultures."
+  },
+  {
+    "objectID": "talks/2024-01-23_TUG_Accessibility/content.html#recording",
+    "href": "talks/2024-01-23_TUG_Accessibility/content.html#recording",
+    "title": "Dashboard translation",
+    "section": "Recording",
+    "text": "Recording"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Flavio Matos",
+    "title": "Turning complex data into answers that drive business decisions",
     "section": "",
-    "text": "Hi there! I’m Flavio, a certified data analyst passionate about making data work for you. I turn complex information into clear insights, helping your business make smart decisions."
+    "text": "Building data solutions aligned with your business goals.\n\n     \n\n Contact Me"
   },
   {
-    "objectID": "about.html#data-analyst-consultant",
-    "href": "about.html#data-analyst-consultant",
-    "title": "Flavio Matos",
-    "section": "Data Analyst Consultant",
-    "text": "Data Analyst Consultant\nHello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.\nI later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.\nAlongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.\nI am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a Viz of the Day award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City.\n\nCertifications"
+    "objectID": "index.html#organizations-ive-worked-with",
+    "href": "index.html#organizations-ive-worked-with",
+    "title": "Turning complex data into answers that drive business decisions",
+    "section": "Organizations I’ve worked with",
+    "text": "Organizations I’ve worked with"
   },
   {
-    "objectID": "about.html#flavio-matos",
-    "href": "about.html#flavio-matos",
-    "title": "Flavio Matos",
-    "section": "",
-    "text": "Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.\nI later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.\nAlongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.\nI am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a Viz of the Day award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City."
+    "objectID": "index.html#how-i-help-organizations-turn-data-into-decisions",
+    "href": "index.html#how-i-help-organizations-turn-data-into-decisions",
+    "title": "Turning complex data into answers that drive business decisions",
+    "section": "How I help organizations turn data into decisions",
+    "text": "How I help organizations turn data into decisions"
+  },
+  {
+    "objectID": "index.html#latest-work",
+    "href": "index.html#latest-work",
+    "title": "Turning complex data into answers that drive business decisions",
+    "section": "Latest work",
+    "text": "Latest work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nThe Periodic Table of Wine\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nDev Spotlight: Translating Dashboards for a Global Audience\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\n\n\nNo matching items\n\nSee all →"
   },
   {
     "objectID": "blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html",
@@ -77,38 +203,17 @@
     "text": "Next Steps\nI’m excited to continue my journey in cloud computing. My next goal is to pursue the AWS Solutions Architect certification, building on the knowledge I’ve gained.\nI’m thinking to share my experiences and insights along the way, and perhaps will be posting updates on my blog. Whether you’re considering certification or have already taken the exam, I’d love to hear from you any tips, suggestions and questions you might have.\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
   },
   {
-    "objectID": "blog/cloud-computing-for-dummies/content.html",
-    "href": "blog/cloud-computing-for-dummies/content.html",
-    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
+    "objectID": "portfolio/periodic-table-wine/content.html",
+    "href": "portfolio/periodic-table-wine/content.html",
+    "title": "The Periodic Table of Wine",
     "section": "",
-    "text": "In my previous article, I mentioned that I started my journey towards the AWS Data Engineer certification. If you missed it, check it out here. I shared some tips for the exam and how to prepare for it in just two weeks.\nHowever, before talking more about the certification, let’s step back and answer a simple question:"
+    "text": "Back to top"
   },
   {
-    "objectID": "blog/cloud-computing-for-dummies/content.html#what-is-cloud-computing-anyway",
-    "href": "blog/cloud-computing-for-dummies/content.html#what-is-cloud-computing-anyway",
-    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
-    "section": "What is cloud computing anyway?",
-    "text": "What is cloud computing anyway?\nThere’s a formal definition of cloud computing wrote by Peter Mell and Timothy Grance published on the National Institute of Standards and Technology (NIST) under the U.S. Department of Commerce (you can find the document here). According to the authors, cloud computing must have 5 essential characteristics. Some of these characteristics are logical and some of them may surprise you. I have attempted to simplify them further down to their core essence to keep this article -less boring- easy to read.\n\n1. On-demand self-service\nYou can get the computing resources you need, like storage or virtual machines, whenever you want without needing to talk to anyone in advance.\n\nIf you can provision your resources whenever you want without involving humans and without delay, It meets this criteria. If not, it’s probably not cloud.\n\n\n\n2. Broad network access\nYou can use cloud services from anywhere using any device with an internet connection, like your phone, tablet, or computer.\n\nIf you need to visit a data center or go to visitor’s facility to interact with your data and/or systems, it’s probably not cloud. If you need a private network link to access your environment, it’s probably not cloud.\n\n\n\n3. Resource pooling\nThe cloud provider shares its resources among many users, allocating resources as needed without you knowing exactly where your data is stored.\n- This characteristic relates to economies of scale. For instance, you can instruct AWS to deploy a virtual machine in a specific region, and they can use any data center or hardware vendor they choose. This shifts the risk to the vendor (AWS in this example). This is beneficial because it allows businesses to focus on applications, data, and services as their core value, rather than on hardware.\n\nPooling also facilitates scaling whenever a customer needs it. When you access storage or virtual machines, they come from a pool of resources rather than being dedicated solely to you. Despite sharing the same hardware with other customers, each customer is isolated, ensuring that your data is accessible only to you.\n\n\n\n4. Rapid elasticity\nYou can quickly get more resources or reduce them based on your needs, almost like having an unlimited supply that you can tap into anytime.\n- Scaling can occur rapidly in real time with no human interaction. Customers don’t need to worry about overprovisioning or underprovisioning – this is a waste of money. This is how companies like Amazon or Netflix can easily handle holiday sales or the load generated when the latest season of a popular series is released.\n- A cloud environment should not let you see capacity limits. If you need a hundred virtual machines or a thousand, you should be able to access them immediately. In the background, the provider manages the capacity in a pooled way, but from your perspective, you should never really see any capacity limitations.\n\nIn my opinion, this is THE most important benefit of the cloud: the system scales in size in response to load. It’s crucial to ensure that a potential cloud environment offers this capability to be truly considered a cloud service.\n\n\n\n5. Measured service\nYou only pay for what you use, and you can track your usage. The cloud provider keeps track of how much you use and charges you accordingly.\n- Traditional and non-cloud infrastructure worked using CapEx (capital expenditure) model. You paid for servers and hardware upfront, often resulting in excess capacity at the start, leading to wasted money. As demand grew, you would need to purchase more servers. If you scaled up too slowly, you faced performance issues or failures.\n\nA true cloud environment, however, offers on-demand billing. Your usage is continuously monitored, and you pay based on that usage (e.g., pay by time for virtual machines, or pay by gigabytes for storage services). With a genuine cloud platform, you generally pay nothing in advance."
-  },
-  {
-    "objectID": "blog/cloud-computing-for-dummies/content.html#why-should-i-use-cloud-computing",
-    "href": "blog/cloud-computing-for-dummies/content.html#why-should-i-use-cloud-computing",
-    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
-    "section": "Why Should I use cloud computing?",
-    "text": "Why Should I use cloud computing?\nBack in the 90s and 00s, if you didn’t have a PC at home, you would go to an Internet Café to use a computer with internet access for an hourly fee. This works as a good analogy for why you would use cloud computing. It’s essentially a way to rent resources you don’t have, and you pay based on your usage.\nCloud computing offers a plenty of services for individuals and companies. Take AWS, for example. If you want to run a very complex algorithm in R or Python on your computer, it could take hours or even days to complete. By renting a more powerful computer (AWS EC2 Instance) with a better CPU and more RAM, you can run your script waaay faster and only pay for the time you use.\nNeed a larger drive to back up your holiday photos or store data from your website? AWS’s S3 service allows you to do that and pay only for the storage you use.\nFor companies, the benefits are even more significant. You can migrate your entire data center to a cloud provider like AWS, which can reduce costs while improving security and availability. For example, Netflix uses cloud computing services to store and distribute movies globally, ensuring that a client in Brazil and another in Japan can watch with minimal latency.\n\nIn summary, you would use cloud computing to “rent” superior computer resources, improving performance, security, and cost efficiency for your scripts, business, and operations."
-  },
-  {
-    "objectID": "blog/cloud-computing-for-dummies/content.html#who-are-the-cloud-providers",
-    "href": "blog/cloud-computing-for-dummies/content.html#who-are-the-cloud-providers",
-    "title": "What the F* is Cloud Computing? A Straightforward Introduction",
-    "section": "Who are the cloud providers?",
-    "text": "Who are the cloud providers?\nThe most popular cloud computing services providers are Amazon Web Services (AWS) , Microsoft Azure , and Google Cloud . They offer similar services and products through their platforms, including virtual machines, storage services, and various tools to help businesses maximize the value of their data. These tools enable data analysis and leverage machine learning and AI to gain a competitive edge.\nIn the next article, we will discuss what businesses need to do to reach the level where they can effectively use machine learning and AI. You will also be able to self-diagnose to determine where your business currently stands in the data journey and identify the steps needed to achieve AI capabilities.\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
-  },
-  {
-    "objectID": "about.html#about-flavio",
-    "href": "about.html#about-flavio",
-    "title": "Flavio Matos",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
     "section": "",
-    "text": "Hello! I’m Flavio, a data analytics professional with a background in engineering and a master’s degree in Innovation and Management in Agribusiness. My interest in data analytics emerged while working at Unilever, where I supported the optimization of production processes, contributing to a reduction in packaging material waste and savings of approximately £600k.\nI later joined The Information Lab, where I further developed my expertise in Tableau and Alteryx, delivering data-driven solutions across finance, marketing, and operations. My work has included automating financial reporting, building ETL pipelines for marketing campaign analysis, and improving dashboard performance. I have particular experience translating SQL logic into Alteryx workflows, integrating APIs, parsing XML using regex, and designing efficient, scalable analytics solutions.\nAlongside my consulting work, I have trained over 200 professionals in data analytics tools such as Tableau, Power BI, and Alteryx. I have also expanded my skill set into cloud computing (Azure, AWS, and GCP) and applied machine learning regression techniques in agribusiness-focused projects.\nI am an active member of the data community and have been recognized as a Tableau Community Highlight, earned a Viz of the Day award, and presented at Tableau User Groups in New York, London, Portugal, and Brazil. My writing has been featured on Tableau’s platforms, and I was nominated for four awards at Tableau Conference 2024 in San Diego. In addition, I contribute to pro bono data visualization projects with NGOs worldwide, including work showcased at the United Nations Summit in New York City."
+    "text": "The Periodic Table of Wine\n\n\n\nTableau\n\nAI\n\nFigma\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]

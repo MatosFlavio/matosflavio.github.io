@@ -1,0 +1,23 @@
+---
+title: "How to empower your Nonprofit organisation with Tableau's data insights"
+description: "In this session, we will explore a great use case demonstrating how Tableau empowers nonprofit organizations with data insights."
+author: "Flavio Matos"
+date: "June 19 2024"
+categories: [Tableau]
+event: "Tableau for Non Profits, Online"
+image: cover_image.png
+format: html
+---
+
+## About the event
+
+This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.
+
+Key topics covered include the impact of visual analytics on:
+
+-   **Strategic Fundraising**: Identifying donor trends and campaign opportunities.
+-   **Impact Reporting**: Transparently communicating results to stakeholders.
+-   **Operational Efficiency**: Monitoring daily activities to maximize mission impact.
+
+The event features a case study on **REACH**, a Cambodian charity using these insights to provide life-changing education and vocational training.
+

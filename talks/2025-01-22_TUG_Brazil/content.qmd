@@ -1,0 +1,30 @@
+---
+title: "Tableau and Slack Integration"
+description: "This talk will showcase how to improve communication efficiency through the integration of two powerful business tools: Slack and Tableau."
+author: "Flavio Matos"
+date: "January 22, 2025"
+categories: [Tableau, Slack]
+event: "TUG Brazil, Online"
+image: cover_image.png
+format: html
+---
+
+## About this event
+
+In this session, I demonstrate how to connect **Tableau Server** to a **Slack workspace** to streamline communication and data collaboration.
+
+I share practical examples of how to:
+
+**- Automate Updates**: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.
+
+**- Real-time Monitoring**: Configure automatic Slack alerts to track specific metrics instantly.
+
+**- Drive Efficiency**: Ensure your team has fast, integrated access to relevant data for quicker decision-making.
+
+Join us to transform how you and your team work with data!
+
+**Please note:** This event will be conducted in **Portuguese**.
+
+### Recording
+
+{{< video https://www.youtube.com/watch?v=9WalQPD_ETE >}}

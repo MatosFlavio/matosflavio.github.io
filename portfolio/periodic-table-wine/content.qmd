@@ -1,0 +1,12 @@
+---
+title: "The Periodic Table of Wine"
+author: "Flavio Matos"
+date: "September 13, 2023"
+image: preview_image.png
+categories: [Tableau, AI, Figma]
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+---
+

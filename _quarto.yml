@@ -61,3 +61,7 @@ format:
       light: [assets/styles.scss, flatly]
     toc: true
     page-layout: article
+    
+comments:
+  giscus:
+    repo: MatosFlavio/matosflavio-website-giscus

@@ -64,12 +64,7 @@ extensions:
 Building data solutions aligned with your business goals.
 
 ::: hero-icons
-{{< iconify simple-icons tableau size=2x >}}
-{{< iconify simple-icons powerbi size=2x >}}
-{{< iconify fa6-solid database size=2x >}}
-{{< iconify fa6-brands python size=2x >}}
-{{< iconify simple-icons dbt size=2x >}}
-{{< iconify fa6-solid file-excel size=2x >}}
+{{< iconify simple-icons tableau size=2x >}} {{< iconify simple-icons powerbi size=2x >}} {{< iconify fa6-solid database size=2x >}} {{< iconify fa6-brands python size=2x >}} {{< iconify simple-icons dbt size=2x >}} {{< iconify fa6-solid file-excel size=2x >}}
 :::
 
 <a href="contact.qmd" 
@@ -84,15 +79,15 @@ class="button"> Contact Me </a>
 
 ![](images/about/clients/lloyds.png)
 
-![](images/about/clients/IAG.png) 
+![](images/about/clients/IAG.png)
 
 ![](images/about/clients/informa.png)
 
-![](images/about/clients/sjp.png) 
+![](images/about/clients/sjp.png)
 
 ![](images/about/clients/JW.png)
 
-![](images/about/clients/northern.png) 
+![](images/about/clients/northern.png)
 
 ![](images/about/clients/TeF.png)
 :::
@@ -108,8 +103,7 @@ class="button"> Contact Me </a>
 
 ### Data Engineering
 
-Design reliable data pipelines, transform raw data into structured
-datasets, and create scalable foundations for analytics.
+Design reliable data pipelines, transform raw data into structured datasets, and create scalable foundations for analytics.
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .service-card}
@@ -117,8 +111,7 @@ datasets, and create scalable foundations for analytics.
 
 ### Analytics & Modeling
 
-Use statistical models and exploratory analysis to uncover patterns,
-measure performance, and support strategic decisions.
+Use statistical models and exploratory analysis to uncover patterns, measure performance, and support strategic decisions.
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .service-card}
@@ -126,47 +119,39 @@ measure performance, and support strategic decisions.
 
 ### Dashboards & BI
 
-Build clear and actionable dashboards in Tableau or Power BI that turn
-complex data into accessible insights.
+Build clear and actionable dashboards in Tableau or Power BI that turn complex data into accessible insights.
 :::
 ::::::
 
-::: {.lately-section}
-
+:::::::::: lately-section
 ## Latest work
 
-:::: {.grid}
-
-::: {.g-col-4}
-
+::::::::: grid
+:::: g-col-4
 #### Projects
+
 ::: {#projects}
 :::
 
 [See all →](portfolio.qmd){.about-links}
+::::
 
-:::
-
-::: {.g-col-4}
-
+:::: g-col-4
 #### Talks
+
 ::: {#talks}
 :::
 
 [See all →](talks.qmd){.about-links}
+::::
 
-:::
-
-::: {.g-col-4}
-
+:::: g-col-4
 #### Blog
+
 ::: {#blog}
 :::
 
 [See all →](blog.qmd){.about-links}
-
-:::
-
 ::::
-
-:::
+:::::::::
+::::::::::

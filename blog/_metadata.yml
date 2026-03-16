@@ -7,3 +7,16 @@ freeze: auto
 
 # enable banner style title blocks ----
 title-block-banner: false
+
+comments:
+  giscus:
+    repo: MatosFlavio/matosflavio-website-giscus
+    repo-id: R_kgDORotb7A
+    category: General
+    category-id: DIC_kwDORotb7M4C4iQt
+    mapping: pathname
+    reactions-enabled: true
+    loading: lazy
+    input-position: top
+    theme: light
+    language: en

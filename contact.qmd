@@ -34,27 +34,25 @@ If you are interested in data analytics consultation, data analysis services, or
 :::
 
 ::: {.column width="10%"}
-
 :::
-
 
 ::: {.column width="45%"}
 
-<form action="https://formspree.io/f/yourID" method="POST">
+```{=html}
+<form action="https://formspree.io/f/maqppvkp" method="POST">
 
-<label>Your Name</label>
-<input type="text" name="name" required>
+  <label for="name">Your Name</label>
+  <input type="text" name="name" id="name" required>
 
-<label>Email</label>
-<input type="email" name="email" required>
+  <label for="email">Email</label>
+  <input type="email" name="_replyto" id="email" required>
 
-<label>Message</label>
-<textarea name="message" rows="4" required></textarea>
+  <label for="message">Message</label>
+  <textarea name="message" id="message" rows="4" required></textarea>
 
-<button type="submit">Submit</button>
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit">Submit</button>
 
 </form>
-
 :::
-
-::::

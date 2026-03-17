@@ -2,6 +2,7 @@
 title: "Portfolio"
 author: ""
 comments: false
+body-classes: portfolio-page
 description: "This portfolio includes works, software, and tools I have designed or contributed to turn data into decisions"
 listing: 
   contents: portfolio
@@ -18,7 +19,6 @@ listing:
 format: 
   html: 
     page-layout: full
-    css: assets/portfolio.css
 title-block-banner: false
 ---
 

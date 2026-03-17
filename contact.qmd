@@ -1,10 +1,10 @@
 ---
 title: "Contact Me"
 comments: false
+body-classes: contact-page
 format:
   html:
     page-layout: full
-    css: assets/contact.css
 ---
 
 :::: {.columns}

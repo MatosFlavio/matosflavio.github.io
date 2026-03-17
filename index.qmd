@@ -48,9 +48,9 @@ listing:
 format:
   html:
     page-layout: full
-    css: assets/index.css
 toc: false
 comments: false
+body-classes: index-page
 extensions:
   iconify:
     style: "color: #0F2F3A;"

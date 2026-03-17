@@ -1,0 +1,480 @@
+/*-- scss:defaults --*/
+
+// --- FONTS ---
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-body: 'Lato', sans-serif;
+$font-family-monospace: 'Fira Mono', monospace;
+
+// --- COLOR PALETTE ---
+$midnight-blue:   #032330;
+$dark-blue:       #0D3640;
+$light-blue:      #B3D6CF;
+$soft-sulfur:     #E8E79F;
+$paper-grey:      #EEEDE8;
+$off-white:       #FAFBF6;
+$amber-orange:    #BF5B04;
+$orange-light:    #FBE6C8;
+$white:           #ffffff;
+$dark:            #191919;
+$dark-blue-soft:  #2F4A52;
+$brand-teal:      #0F2F3A;
+
+// --- FUNCTIONAL MAPPING ---
+$primary:         $midnight-blue;
+$secondary:       $amber-orange;
+$link-color:      $secondary;
+$body-color:      $midnight-blue;
+$bg-color:        $off-white;
+
+/*-- scss:rules --*/
+
+// ==========================================================================
+// 1. GLOBAL OVERRIDES (Navbar, Footer, & Listing Titles)
+// ==========================================================================
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  background-color: $bg-color;
+  color: $body-color;
+  line-height: 1.6;
+}
+
+// Ensure Standard Headings are Lato and Blue
+h1, h2, h3, h4, h5, h6, 
+#title-block-header .title {
+  font-family: 'Lato', sans-serif !important;
+  color: $midnight-blue !important;
+  font-weight: 700 !important;
+}
+
+// FIX: Listing titles in grids (Blog, Talks, Portfolio)
+.listing-title, 
+.listing-title a, 
+.listing-name {
+  font-family: 'Lato', sans-serif !important;
+  color: $midnight-blue !important;
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;      // Decreased for a cleaner look
+  margin-bottom: 14px !important;    // Extra space before buttons
+  text-decoration: none !important;
+  display: block;
+}
+
+// Restore Navbar & Footer color consistency
+.navbar, .nav-footer {
+  background-color: $midnight-blue !important;
+  color: $off-white !important;
+}
+
+.navbar a, .navbar-brand, .nav-footer a, .nav-footer .nav-link {
+  color: $off-white !important;
+  &:hover { color: $light-blue !important; text-decoration: none; }
+}
+
+.nav-footer i, .nav-footer svg {
+  color: $off-white !important;
+  fill: $off-white !important;
+}
+
+.nav-footer a:hover svg, .nav-footer a:hover i {
+  color: $light-blue !important;
+  fill: $light-blue !important;
+}
+
+// UNIFIED Category Buttons (Grids & Post Headers)
+.quarto-listing .listing-categories .listing-category,
+.quarto-category,
+.quarto-title-meta-category,         
+.btn,
+div.quarto-post .listing-categories .listing-category {
+  display: inline-block;
+  color: $secondary !important;
+  border: 1px solid $secondary !important;
+  background-color: transparent !important;
+  border-radius: 6px;
+  font-family: $font-family-sans-serif;
+  padding: 3px 10px;
+  margin-top: 6px;                   // Breathing room below title
+  margin-bottom: 4px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  opacity: 1 !important;             // Solid orange per your request
+  text-decoration: none !important;
+
+  &:hover {
+    background-color: $secondary !important;
+    color: $white !important;
+    transform: translateY(-1px);
+  }
+}
+
+// Banner styles (Ensures post headers match the site theme)
+.quarto-title-block {
+  margin-top: 0;
+  .quarto-title-banner {
+    background-color: $off-white !important;
+    h1, .title, h2, p, .description { color: $primary !important; }
+  }
+}
+
+// Text Highlighting
+mark, .highlight {
+  background-color: $secondary;
+  color: $white;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+// Blockquotes (Markdown > syntax)
+blockquote {
+  color: $dark-blue-soft !important; 
+  font-size: 1.2rem !important;
+  font-style: italic;
+  border-left: 5px solid $light-blue;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// ==========================================================================
+// 2. INDEX TAB (Home) - Precise Styling
+// ==========================================================================
+
+
+.index-page {
+  /* This is the magic fix for the horizontal scroll */
+  overflow-x: hidden; 
+  width: 100%;
+  position: relative;
+  
+  /* HERO STYLES */
+  #hero-heading {
+    max-width: 720px;
+    margin-top: 50px;
+    
+    h3:first-child {
+      font-size: 0.9rem !important;
+      letter-spacing: 1.2px;
+      color: #666;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-weight: 800 !important;
+      color: #0F2F3A !important;
+      font-size: 3rem !important;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* HERO ICONS (Iconify) */
+  .hero-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 36px;
+
+    iconify-icon, svg {
+      font-size: 2rem;
+      color: #0F2F3A !important;
+      fill: #0F2F3A !important;
+      opacity: 0.9;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      cursor: pointer;
+      &:hover {
+        transform: translateY(-2px);
+        opacity: 1;
+      }
+    }
+  }
+
+  /* BUTTON */
+  .button, .button:visited {
+    display: inline-block !important;
+    margin-top: 20px;
+    background-color: #FAFBF6 !important;
+    color: #032330 !important;
+    border: 2px solid #032330 !important;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: #BF5B04 !important;
+      border-color: #BF5B04 !important;
+      color: #FAFBF6 !important;
+      transform: translateY(-2px);
+    }
+  }
+
+  /* CLIENT FULL-WIDTH BAND */
+  .clients-band {
+    background: #E6F2F0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 70px 0;
+    text-align: center;
+    /* Added this to ensure the band itself doesn't fight the container */
+    position: relative; 
+
+    h2 {
+      border-bottom: none;
+      margin-bottom: 35px;
+      color: #0F2F3A;
+    }
+
+    & > * {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /* Logos */
+  .clients-logos img {
+    max-height: 210px;
+    width: auto;
+    object-fit: contain;
+    transition: opacity 0.2s ease;
+    &:hover { opacity: 1; }
+  }
+
+  /* SECTION SYSTEM */
+  .section-intro {
+    text-align: center;
+    max-width: 720px;
+    margin: 120px auto 60px auto;
+
+    h4 {
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      color: #7A8A93;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 700;
+      color: #0F2F3A;
+      border-bottom: none;
+    }
+  }
+
+  /* SERVICES GRID */
+  .services-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 60px;
+    
+    .service-card {
+      text-align: center;
+      padding: 10px 20px;
+      svg, iconify-icon {
+        margin-bottom: 18px;
+        color: #0F2F3A;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+        color: #0F2F3A;
+      }
+      p {
+        color: #4a4a4a;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  /* LATELY SECTION */
+  .lately-section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+    h2 {
+      text-align: center;
+      border-bottom: none;
+      margin-bottom: 40px;
+      font-weight: 800;
+      color: #0F2F3A;
+    }
+
+    .card-title, 
+    .listing-title {
+      font-size: 1.25rem !important; 
+      font-weight: 700;
+      color: #0F2F3A;
+      margin-bottom: 12px !important; 
+    }
+
+    .listing-categories {
+      margin-top: 10px !important;
+    }
+
+    h4 {
+      font-weight: 700;
+      color: #0F2F3A;
+      margin-bottom: 18px;
+    }
+
+    .about-links {
+      display: inline-block;
+      margin-top: 12px;
+      font-weight: 600;
+      color: #0F2F3A;
+      text-decoration: none;
+      &:hover { color: #BF5B04; }
+    }
+  } 
+}
+// ==========================================================================
+// 3. ABOUT TAB (Restored Hover)
+// ==========================================================================
+
+.about-entity .about-links {
+  justify-content: center !important;
+  font-size: 1.9em !important; 
+}
+
+.about-entity .about-link {
+  padding: 0.25em 0.35em !important;
+  border: none !important;
+  color: #0F2F3A !important;
+  &:hover { 
+    color: $amber-orange !important; // Restores Orange Hover
+    transform: translateY(-2px); 
+    opacity: 1; 
+  }
+}
+
+#hero-heading {
+  max-width: 1100px;
+  line-height: 1.65;
+  font-size: 1.08rem; 
+}
+
+// ==========================================================================
+// 4. PORTFOLIO TAB (Restored Centering)
+// ==========================================================================
+
+.portfolio-page .quarto-title-block {
+  text-align: center !important;
+  .title { 
+    font-size: 2.8rem !important; 
+    margin-bottom: 20px; 
+    text-align: center !important;
+  }
+  .description, .subtitle {
+    text-align: center !important;
+    max-width: 750px;
+    margin: 10px auto 40px auto !important;
+  }
+}
+
+.portfolio-page .quarto-grid-item {
+  border: 1.2px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 10px;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  }
+}
+
+// ==========================================================================
+// 5. CONTACT TAB
+// ==========================================================================
+
+.contact-page {
+  /* Form Layout */
+  form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 18px; 
+    margin-top: 20px;
+  }
+
+  label { 
+    font-weight: 500; 
+    display: block; 
+    margin-bottom: 4px; 
+    color: $midnight-blue;
+  }
+
+  /* Input Fields - Added font-size and transition */
+  input, textarea {
+    width: 100%; 
+    padding: 14px 18px; 
+    border-radius: 40px; 
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    background-color: $white;
+    color: $midnight-blue;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: $amber-orange;
+    }
+  }
+
+  textarea { 
+    border-radius: 18px; 
+    resize: vertical; 
+    min-height: 120px;
+  }
+
+  /* Submit Button */
+  button[type="submit"], .btn-contact {
+    align-self: flex-end; 
+    background-color: $amber-orange; 
+    color: $white !important;
+    border: none; 
+    border-radius: 30px; 
+    padding: 14px 28px; 
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover { 
+      background-color: $brand-teal; 
+      transform: translateY(-1px);
+    }
+  }
+
+  /* Social Icons inside contact page */
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    
+    a {
+      color: $brand-teal !important;
+      font-size: 1.1rem;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        color: $amber-orange !important;
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

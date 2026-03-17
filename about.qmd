@@ -3,6 +3,7 @@ title: "Flavio Matos"
 subtitle: "Data Analytics Consultant"
 image: images/flavio_headshot_bluebg.png
 toc: false
+body-classes: about-page
 about: 
   template: trestles
   image-shape: round
@@ -18,7 +19,6 @@ about:
 format:
     html:
       page-layout: full
-      css: assets/about.css
 comments: false
 ---
 

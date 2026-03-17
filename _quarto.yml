@@ -58,7 +58,8 @@ website:
 format:
   html:
     theme: 
-      light: [assets/styles.scss, flatly]
+      light: [assets/theme_light.scss, flatly]
+      dark: [assets/theme_dark.scss]
     toc: true
     page-layout: article
     

@@ -1040,34 +1040,6 @@ $theme-name: null !default;
 // quarto-scss-analysis-annotation { "origin": "Defaults from user-defined SCSS" }
 
 
-// --- FONTS ---
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap');
-
-$font-family-sans-serif: 'Lato', sans-serif;
-$font-family-body: 'Lato', sans-serif;
-$font-family-monospace: 'Fira Mono', monospace;
-
-// --- COLOR PALETTE ---
-$midnight-blue:   #032330; 
-$brand-teal:      #0F2F3A;
-$deep-bg:         #01161E; 
-$surface-bg:      #032330; 
-$amber-orange:    #BF5B04;
-$light-blue:      #B3D6CF; 
-$soft-sulfur:     #E8E79F;
-$orange-light:    #FBE6C8;
-$soft-teal:       #4A6D76; 
-$off-white:       #FAFBF6;
-$pure-white:      #ffffff;
-
-// --- FUNCTIONAL MAPPING ---
-$primary:         $amber-orange;
-$secondary:       $light-blue;
-$link-color:      $amber-orange;
-$body-color:      $off-white;
-$bg-color:        $deep-bg;
-
-
 // Heading font size customization
 $h1-font-size: 2rem !default;
 $h2-font-size: 1.65rem !default;
@@ -1086,6 +1058,158 @@ $font-size-root: 17px !default;
 
 // Disable smooth scrolling
 $enable-smooth-scroll: false !default;
+
+// quarto-scss-analysis-annotation { "origin": "flatly (builtin theme)" }
+
+$theme: "flatly" !default;
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ecf0f1 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #b4bcc2 !default;
+$gray-600: #95a5a6 !default;
+$gray-700: #7b8a8b !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #2c3e50 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #e74c3c !default;
+$orange:  #fd7e14 !default;
+$yellow:  #f39c12 !default;
+$green:   #18bc9c !default;
+$teal:    #20c997 !default;
+$cyan:    #3498db !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-700 !default;
+
+$min-contrast-ratio:   2.05 !default;
+
+// Links
+
+$link-color:                $success !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:      Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$h1-font-size:                3rem !default;
+$h2-font-size:                2.5rem !default;
+$h3-font-size:                2rem !default;
+
+// Tables
+
+$table-bg-scale:              0% !default;
+
+// Dropdowns
+
+$dropdown-link-color:               $gray-700 !default;
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            $primary !default;
+
+// Navs
+
+$nav-link-padding-y:                .5rem !default;
+$nav-link-padding-x:                2rem !default;
+$nav-link-disabled-color:           $gray-600 !default;
+$nav-tabs-border-color:             $gray-200 !default;
+
+// Navbar
+
+$navbar-padding-y:                  1rem !default;
+$navbar-light-bg:                   $primary !default;
+$navbar-light-color:                $white !default;
+$navbar-light-hover-color:          $success !default;
+$navbar-light-active-color:         $success !default;
+$navbar-light-brand-color:          $white !default;
+$navbar-light-brand-hover-color:    $navbar-light-brand-color !default;
+
+
+$navbar-dark-color:                 $white !default;
+$navbar-dark-hover-color:           $primary !default;
+$navbar-dark-active-color:          $primary !default;
+
+$navbar-dark-brand-color:                 $white !default;
+$navbar-dark-brand-hover-color:           $navbar-dark-brand-color !default;
+
+// Pagination
+
+$pagination-color:                  $white !default;
+$pagination-bg:                     $success !default;
+$pagination-border-width:           0 !default;
+$pagination-border-color:           transparent !default;
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               darken($success, 15%) !default;
+$pagination-hover-border-color:     transparent !default;
+$pagination-active-bg:              $pagination-hover-bg !default;
+$pagination-active-border-color:    transparent !default;
+$pagination-disabled-color:         $gray-200 !default;
+$pagination-disabled-bg:            lighten($success, 15%) !default;
+$pagination-disabled-border-color:  transparent !default;
+
+// List group
+
+$list-group-hover-bg:               $gray-200 !default;
+$list-group-disabled-bg:            $gray-200 !default;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              .375rem !default;
+$breadcrumb-padding-x:              .75rem !default;
+$breadcrumb-border-radius:          .25rem !default;
+
+// Close
+
+$btn-close-color:            $white !default;
+$btn-close-opacity:          .4 !default;
+$btn-close-hover-opacity:    1 !default;
+
+
+
+
+// --- FONTS ---
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-body: 'Lato', sans-serif;
+$font-family-monospace: 'Fira Mono', monospace;
+
+// --- COLOR PALETTE ---
+$midnight-blue:   #032330;
+$dark-blue:       #0D3640;
+$light-blue:      #B3D6CF;
+$soft-sulfur:     #E8E79F;
+$paper-grey:      #EEEDE8;
+$off-white:       #FAFBF6;
+$amber-orange:    #BF5B04;
+$orange-light:    #FBE6C8;
+$white:           #ffffff;
+$dark:            #191919;
+$dark-blue-soft:  #2F4A52;
+$brand-teal:      #0F2F3A;
+
+// --- FUNCTIONAL MAPPING ---
+$primary:         $midnight-blue;
+$secondary:       $amber-orange;
+$link-color:      $secondary;
+$body-color:      $midnight-blue;
+$bg-color:        $off-white;
 
 /*-- scss: functions --*/
 
@@ -1124,8 +1248,8 @@ $title-banner-bg: null !default;
 $title-banner-image: null !default;
 
 
-$btn-code-copy-color: #f8f8f2 !default;
-$btn-code-copy-color-active: #ffa07a !default;
+$btn-code-copy-color: #5E5E5E !default;
+$btn-code-copy-color-active: #4758AB !default;
 
 // quarto-scss-analysis-annotation { "origin": "Defaults from Quarto's SCSS" }
 
@@ -12786,210 +12910,463 @@ main.quarto-banner-title-block > section:first-child > h4 {
 
 
 // ==========================================================================
-// 1. GLOBAL DARK OVERRIDES
+// 1. GLOBAL OVERRIDES (Navbar, Footer, & Listing Titles)
 // ==========================================================================
 
 body {
+  font-family: 'Lato', sans-serif !important;
   background-color: $bg-color;
   color: $body-color;
-  font-family: 'Lato', sans-serif !important;
+  line-height: 1.6;
 }
 
+// Ensure Standard Headings are Lato and Blue
 h1, h2, h3, h4, h5, h6, 
-.listing-title, .listing-title a, .listing-name,
 #title-block-header .title {
-  color: $pure-white !important;
   font-family: 'Lato', sans-serif !important;
+  color: $midnight-blue !important;
+  font-weight: 700 !important;
 }
 
+// FIX: Listing titles in grids (Blog, Talks, Portfolio)
+.listing-title, 
+.listing-title a, 
+.listing-name {
+  font-family: 'Lato', sans-serif !important;
+  color: $midnight-blue !important;
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;      // Decreased for a cleaner look
+  margin-bottom: 14px !important;    // Extra space before buttons
+  text-decoration: none !important;
+  display: block;
+}
+
+// Restore Navbar & Footer color consistency
 .navbar, .nav-footer {
   background-color: $midnight-blue !important;
   color: $off-white !important;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .navbar a, .navbar-brand, .nav-footer a, .nav-footer .nav-link {
   color: $off-white !important;
-  &:hover { color: $light-blue !important; }
+  &:hover { color: $light-blue !important; text-decoration: none; }
 }
 
+.nav-footer i, .nav-footer svg {
+  color: $off-white !important;
+  fill: $off-white !important;
+}
+
+.nav-footer a:hover svg, .nav-footer a:hover i {
+  color: $light-blue !important;
+  fill: $light-blue !important;
+}
+
+// UNIFIED Category Buttons (Grids & Post Headers)
 .quarto-listing .listing-categories .listing-category,
-.quarto-category, .btn, .quarto-title-meta-category {
-  color: $amber-orange !important;
-  border: 1px solid $amber-orange !important;
-  background-color: rgba(191, 91, 4, 0.1) !important;
+.quarto-category,
+.quarto-title-meta-category,         
+.btn,
+div.quarto-post .listing-categories .listing-category {
+  display: inline-block;
+  color: $secondary !important;
+  border: 1px solid $secondary !important;
+  background-color: transparent !important;
   border-radius: 6px;
+  font-family: $font-family-sans-serif;
   padding: 3px 10px;
+  margin-top: 6px;                   // Breathing room below title
+  margin-bottom: 4px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  opacity: 1 !important;             // Solid orange per your request
   text-decoration: none !important;
+
   &:hover {
-    background-color: $amber-orange !important;
-    color: $pure-white !important;
+    background-color: $secondary !important;
+    color: $white !important;
+    transform: translateY(-1px);
   }
 }
 
-.quarto-title-block .quarto-title-banner {
-  background-color: $surface-bg !important;
-  h1, .title, h2, p, .description { color: $pure-white !important; }
+// Banner styles (Ensures post headers match the site theme)
+.quarto-title-block {
+  margin-top: 0;
+  .quarto-title-banner {
+    background-color: $off-white !important;
+    h1, .title, h2, p, .description { color: $primary !important; }
+  }
+}
+
+// Text Highlighting
+mark, .highlight {
+  background-color: $secondary;
+  color: $white;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+// Blockquotes (Markdown > syntax)
+blockquote {
+  color: $dark-blue-soft !important; 
+  font-size: 1.2rem !important;
+  font-style: italic;
+  border-left: 5px solid $light-blue;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  
+  p {
+    margin-bottom: 0;
+  }
 }
 
 // ==========================================================================
 // 2. INDEX TAB (Home)
 // ==========================================================================
 
+
 .index-page {
-  overflow-x: hidden;
+  /* This is the magic fix for the horizontal scroll */
+  overflow-x: hidden; 
+  width: 100%;
+  position: relative;
   
-  #hero-heading h1 { color: $pure-white !important; }
-  #hero-heading p { color: $light-blue !important; }
+  /* HERO STYLES */
+  #hero-heading {
+    max-width: 720px;
+    margin-top: 20px;
+    
+    h3:first-child {
+      font-size: 0.9rem !important;
+      letter-spacing: 1.2px;
+      color: #666;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
 
+    h1 {
+      font-weight: 800 !important;
+      color: #0F2F3A !important;
+      font-size: 3rem !important;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* HERO ICONS (Iconify) */
+  .hero-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 36px;
+
+    iconify-icon, svg {
+      font-size: 2rem;
+      color: #0F2F3A !important;
+      fill: #0F2F3A !important;
+      opacity: 0.9;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      cursor: pointer;
+      &:hover {
+        transform: translateY(-2px);
+        opacity: 1;
+      }
+    }
+  }
+
+  /* BUTTON */
+  .button, .button:visited {
+    display: inline-block !important;
+    margin-top: 20px;
+    background-color: #FAFBF6 !important;
+    color: #032330 !important;
+    border: 2px solid #032330 !important;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: #BF5B04 !important;
+      border-color: #BF5B04 !important;
+      color: #FAFBF6 !important;
+      transform: translateY(-2px);
+    }
+  }
+
+  /* CLIENT FULL-WIDTH BAND */
   .clients-band {
-    background: $midnight-blue;
-    h2 { color: $pure-white; border-bottom: none; }
-    .clients-logos img { 
-      filter: brightness(0) invert(1); 
-      opacity: 0.8; 
-      max-height: 210px;
+    background: #E6F2F0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 70px 0;
+    text-align: center;
+    /* Added this to ensure the band itself doesn't fight the container */
+    position: relative; 
+
+    h2 {
+      border-bottom: none;
+      margin-bottom: 35px;
+      color: #0F2F3A;
+    }
+
+    & > * {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
-  .service-card {
-    h3 { color: $amber-orange !important; }
-    p { color: $off-white !important; }
-    svg, iconify-icon { 
-      color: $off-white !important; 
+  /* Logos */
+  .clients-logos img {
+    max-height: 210px;
+    width: auto;
+    object-fit: contain;
+    transition: opacity 0.2s ease;
+    &:hover { opacity: 1; }
+  }
+
+  /* SECTION SYSTEM */
+  .section-intro {
+    text-align: center;
+    max-width: 720px;
+    margin: 120px auto 60px auto;
+
+    h4 {
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      color: #7A8A93;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 700;
+      color: #0F2F3A;
+      border-bottom: none;
     }
   }
-  
-  lately-section {
-    // 1. The Main "Latest Work" Header (Keep White)
-    h2 { 
-      color: $off-white !important; 
+
+  /* SERVICES GRID */
+  .services-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 60px;
+    
+    .service-card {
       text-align: center;
-      margin-bottom: 50px;
+      padding: 10px 20px;
+      svg, iconify-icon {
+        margin-bottom: 18px;
+        color: #0F2F3A;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+        color: #0F2F3A;
+      }
+      p {
+        color: #4a4a4a;
+        line-height: 1.6;
+      }
+    }
+  }
+
+ /* LATELY SECTION */
+  .lately-section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+    h2 {
+      text-align: center;
+      border-bottom: none;
+      margin-bottom: 40px;
+      font-weight: 800;
+      color: #0F2F3A;
     }
 
-    // 2. THE FIX: Section Labels (Projects, Talks, Blog) to Orange
-    h4 { 
-      color: $amber-orange !important; 
-      font-weight: 700 !important;
-      text-transform: uppercase; // Optional: Makes them look like professional labels
-      letter-spacing: 1px;
-      margin-bottom: 20px !important;
+    h4 {
+      font-weight: 700;
+      color: #0F2F3A;
+      margin-bottom: 18px;
     }
 
-    .quarto-grid-item {
-      background-color: $surface-bg !important; 
-      border: 1px solid rgba(255, 255, 255, 0.1) !important;
-      border-radius: 14px;
-      padding: 10px;
+    // --- THE FIX FOR EQUAL HEIGHT CARDS ---
+    .quarto-grid-item.card {
+      height: 100% !important;     // Forces card to stretch to the tallest in the row
+      display: flex !important;    // Makes internal parts stack correctly
+      flex-direction: column !important;
+      border: 1px solid rgba(0,0,0,0.08) !important; // Clean light border
+      background-color: #ffffff !important;
     }
 
-    // 3. Keep Card Titles White (since the section header is now orange)
+    .card-body, .listing-body {
+      flex-grow: 1 !important;     // Pushes the title/text to fill the card height
+      display: flex;
+      flex-direction: column;
+    }
+    // --------------------------------------
+
     .card-title, 
-    .listing-title, 
-    .listing-title a { 
-      color: $off-white !important; 
+    .listing-title,
+    .listing-title a {
+      font-size: 1.25rem !important; 
+      font-weight: 700;
+      color: #0F2F3A !important;
+      margin-bottom: 12px !important; 
       text-decoration: none !important;
     }
 
-    .card-text, .listing-description {
-      color: $light-blue !important;
+    .listing-categories {
+      margin-top: auto !important; // Keeps categories at the bottom of the card body
+      padding-top: 10px;
     }
 
-    // 4. "See All" Link
     .about-links {
-      color: $off-white !important;
-      &:hover { color: $amber-orange !important; }
+      display: inline-block;
+      margin-top: 12px;
+      font-weight: 600;
+      color: #0F2F3A;
+      text-decoration: none;
+      &:hover { color: #BF5B04; }
     }
   }
+  
+// ==========================================================================
+// 3. ABOUT TAB (Restored Hover)
+// ==========================================================================
 
+.about-entity .about-links {
+  justify-content: center !important;
+  font-size: 1.9em !important; 
+}
+
+.about-entity .about-link {
+  padding: 0.25em 0.35em !important;
+  border: none !important;
+  color: #0F2F3A !important;
+  &:hover { 
+    color: $amber-orange !important; // Restores Orange Hover
+    transform: translateY(-2px); 
+    opacity: 1; 
+  }
+}
+
+#hero-heading {
+  max-width: 1100px;
+  line-height: 1.65;
+  font-size: 1.08rem; 
+}
 
 // ==========================================================================
-// 3. ABOUT & PORTFOLIO
+// 4. PORTFOLIO TAB (Restored Centering)
 // ==========================================================================
 
-.about-link {
-  color: $pure-white !important;
-  &:hover { color: $amber-orange !important; }
+.portfolio-page .quarto-title-block {
+  text-align: center !important;
+  .title { 
+    font-size: 2.8rem !important; 
+    margin-bottom: 20px; 
+    text-align: center !important;
+  }
+  .description, .subtitle {
+    text-align: center !important;
+    max-width: 750px;
+    margin: 10px auto 40px auto !important;
+  }
 }
 
 .portfolio-page .quarto-grid-item {
-  background-color: $surface-bg;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1.2px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 10px;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  }
 }
 
 // ==========================================================================
-// 4. CONTACT PAGE (Dark Mode)
+// 5. CONTACT TAB
 // ==========================================================================
 
 .contact-page {
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+  /* Form Layout */
+  form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 18px; 
     margin-top: 20px;
   }
 
-  label {
-    color: $off-white !important;
-    font-weight: 500;
-    margin-bottom: 4px;
-    display: block;
+  label { 
+    font-weight: 500; 
+    display: block; 
+    margin-bottom: 4px; 
+    color: $midnight-blue;
   }
 
+  /* Input Fields - Added font-size and transition */
   input, textarea {
-    background-color: $surface-bg !important; // Deep blue surface
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    color: $white !important;
+    width: 100%; 
+    padding: 14px 18px; 
+    border-radius: 40px; 
+    border: 1px solid #dcdcdc;
     font-size: 16px;
-    border-radius: 40px;
-    padding: 14px 18px;
-    width: 100%;
-
-    &::placeholder {
-      color: rgba(255, 255, 255, 0.4);
-    }
+    background-color: $white;
+    color: $midnight-blue;
+    transition: border-color 0.2s ease;
 
     &:focus {
-      border-color: $amber-orange !important;
       outline: none;
-      box-shadow: 0 0 0 3px rgba(191, 91, 4, 0.2);
+      border-color: $amber-orange;
     }
   }
 
-  textarea {
-    border-radius: 18px;
-    resize: vertical;
+  textarea { 
+    border-radius: 18px; 
+    resize: vertical; 
     min-height: 120px;
   }
 
-  button[type="submit"] {
-    align-self: flex-end;
-    background-color: $amber-orange;
+  /* Submit Button */
+  button[type="submit"], .btn-contact {
+    align-self: flex-end; 
+    background-color: $amber-orange; 
     color: $white !important;
-    border-radius: 30px;
-    border: none;
-    padding: 14px 28px;
-    font-weight: 600;
+    border: none; 
+    border-radius: 30px; 
+    padding: 14px 28px; 
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
 
-    &:hover {
-      background-color: #df6b06; // Slightly brighter orange
+    &:hover { 
+      background-color: $brand-teal; 
       transform: translateY(-1px);
     }
   }
 
-  /* Icons smaller per your request (1.2rem) */
+  /* Social Icons inside contact page */
   .social-icons {
     display: flex;
     gap: 20px;
     margin-top: 30px;
     
     a {
-      color: $off-white !important;
-      font-size: 1.2rem;
+      color: $brand-teal !important;
+      font-size: 1.1rem;
       transition: all 0.2s ease;
       
       &:hover {
@@ -13001,11 +13378,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 // ==========================================================================
-// 5. RESPONSIVE DESIGN (Dark Mode Version)
+// 6. RESPONSIVE DESIGN (The "Mobile-First" Refinement)
 // ==========================================================================
 
+// --- TABLETS & PHONES (Under 992px) ---
 @media (max-width: 992px) {
   
+  // GLOBAL FIXES
   .quarto-container {
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -13030,12 +13409,13 @@ h1, h2, h3, h4, h5, h6,
       display: flex !important;
       flex-direction: column !important;
       gap: 40px;
+      .service-card { padding: 0; }
     }
 
-    // --- CLIENTS BAND: Adjusted for Dark Mode ---
+    // --- CLIENTS BAND: Background & Centering Fix ---
     .clients-band {
-      padding: 60px 20px !important; 
-      background: $midnight-blue !important; // Match your dark surface color
+      padding: 60px 20px !important; // Increased padding for a better look
+      background: #E6F2F0 !important;
       width: 100vw !important;
       position: relative !important;
       left: 50% !important;
@@ -13046,17 +13426,26 @@ h1, h2, h3, h4, h5, h6,
       .clients-logos {
         .quarto-layout-row {
           display: flex !important;
+          flex-direction: row !important; 
+          flex-wrap: wrap !important;     
           justify-content: center !important;
-          flex-wrap: wrap !important;
+          align-items: center !important;
           gap: 30px !important; 
         }
 
         .quarto-layout-cell {
           width: 28% !important; 
           min-width: 80px !important;
+          flex: 0 0 auto !important;
+          display: flex !important;
+          justify-content: center !important;
+          margin: 0 !important;
+
           img {
             height: 45px !important; 
-            filter: brightness(0) invert(1); // Keeps logos white in dark mode
+            width: auto !important;
+            display: block !important;
+            object-fit: contain;
           }
         }
       }
@@ -13075,46 +13464,171 @@ h1, h2, h3, h4, h5, h6,
       display: flex !important;
       flex-direction: column !important;
       text-align: center;
-      .about-image { margin: 0 auto 20px auto !important; }
+
+      .about-image {
+        margin: 0 auto 20px auto !important;
+        img { width: 180px !important; }
+      }
+
       .about-links {
         display: flex !important;
         flex-direction: row !important;
-        justify-content: center !important;
         flex-wrap: wrap;
+        justify-content: center !important;
         gap: 15px;
+        margin-top: 20px;
       }
     }
 
     .certs-container {
+      width: 100% !important;
+      margin-top: 30px !important;
+
       .quarto-layout-panel .quarto-layout-row {
         display: flex !important;
+        flex-direction: row !important; 
+        flex-wrap: wrap !important;     
         justify-content: center !important;
-        flex-wrap: wrap !important;
+        align-items: center !important;
         gap: 15px !important;
       }
+
       .quarto-layout-cell {
         width: 28% !important; 
-        img { height: 45px !important; }
+        min-width: 80px !important; 
+        flex: 0 0 auto !important;
+        display: flex !important;
+        justify-content: center !important;
+
+        img {
+          height: 45px !important; 
+          width: auto !important;
+          display: block !important;
+          object-fit: contain;
+        }
       }
     }
   }
 
   // --- CONTACT PAGE ---
   .contact-page {
-    .columns { display: flex !important; flex-direction: column !important; }
-    .column { width: 100% !important; text-align: center; }
-    .social-icons { justify-content: center; }
-    form button[type="submit"] { width: 100%; }
+    .columns {
+      display: flex !important;
+      flex-direction: column !important; 
+    }
+    .column {
+      width: 100% !important;
+      text-align: center;
+    }
+    .social-icons {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    form {
+      text-align: left;
+      button[type="submit"] { width: 100%; }
+    }
     .column[width="10%"] { display: none; }
   }
 }
 
+// --- VERY SMALL PHONES (Under 576px) ---
 @media (max-width: 576px) {
   .index-page #hero-heading h1 { font-size: 1.9rem !important; }
+  
   .about-page .quarto-layout-cell,
   .index-page .clients-band .quarto-layout-cell {
     width: 40% !important; 
   }
 }
+
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// Navbar
+
+.bg-primary {
+  .navbar-nav .show > .nav-link,
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: $success !important;
+  }
+}
+
+// Navs
+
+.nav-tabs {
+  .nav-link.active,
+  .nav-link.active:focus,
+  .nav-link.active:hover,
+  .nav-item.open .nav-link,
+  .nav-item.open .nav-link:focus,
+  .nav-item.open .nav-link:hover {
+    color: $primary;
+  }
+}
+
+.pagination {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+// Indicators
+
+.badge {
+  &.bg-light {
+    color: $dark;
+  }
+}
+
+.alert {
+  color: $white;
+  border: none;
+
+  a,
+  .alert-link {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      @if $enable-gradients {
+        background: $value linear-gradient(180deg, mix($body-bg, $value, 15%), $value) repeat-x;
+      } @else {
+        background-color: $value;
+      }
+    }
+  }
+
+  &-light {
+    &,
+    a,
+    .alert-link {
+      color: $body-color;
+    }
+  }
+}
+
+// Containers
+
+.modal,
+.toast,
+.offcanvas {
+  .btn-close {
+    background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$black}'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/></svg>"));
+  }
+}
+
+
+// quarto-scss-analysis-annotation { "origin": null }
+
 
 // quarto-scss-analysis-annotation { "origin": null }

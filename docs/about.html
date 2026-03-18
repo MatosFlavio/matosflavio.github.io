@@ -344,15 +344,15 @@ cookieconsent.run({
   </div>
 </header>
     <div class="about-links">
-  <a href="https://github.com/MatosFlavio" class="about-link" rel="" target="">
+  <a href="https://github.com/MatosFlavio" class="about-link" rel="" target="_blank">
     <i class="bi bi-github"></i>
      <span class="about-link-text"></span>
   </a>
-  <a href="https://www.linkedin.com/in/flavio-matos/" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/flavio-matos/" class="about-link" rel="" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text"></span>
   </a>
-  <a href="mailto:flavio.matos@faktaconsulting.com" class="about-link" rel="" target="">
+  <a href="mailto:flavio.matos@faktaconsulting.com" class="about-link" rel="" target="_blank">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text"></span>
   </a>
@@ -496,6 +496,11 @@ cookieconsent.run({
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

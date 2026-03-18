@@ -62,6 +62,7 @@ format:
       dark: [assets/theme_dark.scss]
     toc: true
     page-layout: article
+    link-external-newwindow: true
     
 comments:
   giscus:

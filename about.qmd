@@ -12,10 +12,13 @@ about:
   links:
     - icon: github
       href: https://github.com/MatosFlavio
+      target: _blank
     - icon: linkedin
       href: https://www.linkedin.com/in/flavio-matos/
+      target: _blank
     - icon: envelope
       href: mailto:flavio.matos@faktaconsulting.com
+      target: _blank
 format:
     html:
       page-layout: full

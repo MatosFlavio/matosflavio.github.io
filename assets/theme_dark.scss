@@ -14,6 +14,8 @@ $deep-bg:         #01161E;
 $surface-bg:      #032330; 
 $amber-orange:    #BF5B04;
 $light-blue:      #B3D6CF; 
+$soft-sulfur:     #E8E79F;
+$orange-light:    #FBE6C8;
 $soft-teal:       #4A6D76; 
 $off-white:       #FAFBF6;
 $pure-white:      #ffffff;
@@ -40,7 +42,7 @@ body {
 h1, h2, h3, h4, h5, h6, 
 .listing-title, .listing-title a, .listing-name,
 #title-block-header .title {
-  color: $pure-white !important;
+  color: $light-blue !important;
   font-family: 'Lato', sans-serif !important;
 }
 
@@ -82,11 +84,11 @@ h1, h2, h3, h4, h5, h6,
   overflow-x: hidden;
   
   #hero-heading h1 { color: $pure-white !important; }
-  #hero-heading p { color: $light-blue !important; }
+  #hero-heading p { color: #666 !important; }
 
   .clients-band {
     background: $midnight-blue;
-    h2 { color: $pure-white; border-bottom: none; }
+    h2 { color: $light-blue !important; border-bottom: none; }
     .clients-logos img { 
       filter: brightness(0) invert(1); 
       opacity: 0.8; 
@@ -94,16 +96,79 @@ h1, h2, h3, h4, h5, h6,
     }
   }
 
+  .section-intro h2 {
+    color: $light-blue !important;
+  }
+
   .service-card {
-    h3 { color: $amber-orange !important; }
-    p { color: $off-white; }
-    svg, iconify-icon { color: $light-blue; }
+    h3 { color: $amber-orange !important; } // Card Titles
+    p { color: $off-white !important; }     // Card Text
+    svg, iconify-icon { 
+      color: $light-blue !important;        // Icons
+    }
   }
   
   .lately-section {
-    .card-title, .listing-title { color: $pure-white !important; }
+    h2 { color: $light-blue !important; }
+    
+
+    .quarto-grid-item {
+      background-color: $surface-bg !important; 
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 14px;
+      padding: 10px;
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+      }
+    }
+    
+    .card-title, 
+    .listing-title, 
+    .listing-title a { 
+      color: $off-white !important; 
+      text-decoration: none !important;
+      font-weight: 700 !important;
+    }
+
+    .card-text, .listing-description {
+      color: $light-blue !important;
+      opacity: 0.9;
+    }
+
+    // 2. The "See All" Link below the cards
+    .about-links {
+      display: inline-block;
+      margin-top: 25px;
+      font-weight: 600;
+      color: $amber-orange !important; // 
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover { 
+        color: $orange-light !important; 
+        text-decoration: underline !important;
+      }
+    }
   }
 }
+
+.index-page .hero-icons {
+    iconify-icon, svg {
+      color: $light-blue !important; // Adaptive color for dark mode
+      fill: $light-blue !important;
+      font-size: 2rem;
+      
+      &:hover {
+        color: $light-blue !important;
+        transform: translateY(-2px);
+      }
+    }
+  }
+  
+
 
 // ==========================================================================
 // 3. ABOUT & PORTFOLIO
@@ -114,13 +179,38 @@ h1, h2, h3, h4, h5, h6,
   &:hover { color: $amber-orange !important; }
 }
 
+.about-page {
+  
+  // 1. YOUR NAME (Flavio Matos)
+  .about-entity h1, 
+  #title-block-header h1.title {
+    color: $light-blue !important;
+  }
+
+  h1 { color: $light-blue !important; }
+  h2 { color: $light-blue !important; }
+
+  // 3. SOCIAL MEDIA ICONS (Light Orange)
+  .about-link {
+    color: $amber-orange !important; 
+    opacity: 0.7; // "Light orange" feel
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $orange-light !important;
+      opacity: 1; // Brightens on hover
+      transform: translateY(-2px);
+    }
+  }
+}
+
 .portfolio-page .quarto-grid-item {
   background-color: $surface-bg;
   border: 1px solid rgba(255,255,255,0.1);
 }
 
 // ==========================================================================
-// 4. CONTACT PAGE (Dark Mode)
+// 4. CONTACT PAGE
 // ==========================================================================
 
 .contact-page {
@@ -166,8 +256,8 @@ h1, h2, h3, h4, h5, h6,
 
   button[type="submit"] {
     align-self: flex-end;
-    background-color: $amber-orange;
-    color: $white !important;
+    background-color: $light-blue;
+    color: $midnight-blue !important;
     border-radius: 30px;
     border: none;
     padding: 14px 28px;
@@ -177,7 +267,7 @@ h1, h2, h3, h4, h5, h6,
     transition: all 0.2s ease;
 
     &:hover {
-      background-color: #df6b06; // Slightly brighter orange
+      background-color: $amber-orange; // Slightly brighter orange
       transform: translateY(-1px);
     }
   }
@@ -198,5 +288,122 @@ h1, h2, h3, h4, h5, h6,
         transform: translateY(-2px);
       }
     }
+  }
+}
+
+// ==========================================================================
+// 5. RESPONSIVE DESIGN (Dark Mode Version)
+// ==========================================================================
+
+@media (max-width: 992px) {
+  
+  .quarto-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  // --- INDEX PAGE (HOME) ---
+  .index-page {
+    #hero-heading {
+      max-width: 95%;
+      margin: 40px auto;
+      text-align: center;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+
+      h1 { font-size: 2.4rem !important; }
+      .hero-icons { justify-content: center; }
+      .button { width: 100%; max-width: 300px; }
+    }
+
+    .services-grid {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px;
+    }
+
+    // --- CLIENTS BAND: Adjusted for Dark Mode ---
+    .clients-band {
+      padding: 60px 20px !important; 
+      background: $midnight-blue !important; // Match your dark surface color
+      width: 100vw !important;
+      position: relative !important;
+      left: 50% !important;
+      right: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
+
+      .clients-logos {
+        .quarto-layout-row {
+          display: flex !important;
+          justify-content: center !important;
+          flex-wrap: wrap !important;
+          gap: 30px !important; 
+        }
+
+        .quarto-layout-cell {
+          width: 28% !important; 
+          min-width: 80px !important;
+          img {
+            height: 45px !important; 
+            filter: brightness(0) invert(1); // Keeps logos white in dark mode
+          }
+        }
+      }
+    }
+
+    .lately-section .grid {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px;
+    }
+  }
+
+  // --- ABOUT PAGE ---
+  .about-page {
+    .about-entity {
+      display: flex !important;
+      flex-direction: column !important;
+      text-align: center;
+      .about-image { margin: 0 auto 20px auto !important; }
+      .about-links {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+
+    .certs-container {
+      .quarto-layout-panel .quarto-layout-row {
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 15px !important;
+      }
+      .quarto-layout-cell {
+        width: 28% !important; 
+        img { height: 45px !important; }
+      }
+    }
+  }
+
+  // --- CONTACT PAGE ---
+  .contact-page {
+    .columns { display: flex !important; flex-direction: column !important; }
+    .column { width: 100% !important; text-align: center; }
+    .social-icons { justify-content: center; }
+    form button[type="submit"] { width: 100%; }
+    .column[width="10%"] { display: none; }
+  }
+}
+
+@media (max-width: 576px) {
+  .index-page #hero-heading h1 { font-size: 1.9rem !important; }
+  .about-page .quarto-layout-cell,
+  .index-page .clients-band .quarto-layout-cell {
+    width: 40% !important; 
   }
 }

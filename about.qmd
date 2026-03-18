@@ -39,6 +39,7 @@ I’m an active member of the data community, recognized as a Tableau Community 
 Certifications
 :::
 
+::: {.certs-container}
 ::: {layout-ncol="7"}
 ![](images/about/certifications/tableau.png)
 
@@ -54,6 +55,5 @@ Certifications
 
 ![](images/about/certifications/aws_pract.png)
 :::
+:::
 ::::::
-
-

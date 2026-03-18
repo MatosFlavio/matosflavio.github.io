@@ -4,7 +4,7 @@ about:
   id: hero-heading
   template: solana
   image: images/flavio_headshot_bluebg.png
-  image-width: 25em
+  image-width: 21em
   image-shape: round
 listing:
   - id: projects

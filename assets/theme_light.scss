@@ -478,3 +478,168 @@ blockquote {
     }
   }
 }
+
+// ==========================================================================
+// 6. RESPONSIVE DESIGN (The "Mobile-First" Refinement)
+// ==========================================================================
+
+// --- TABLETS & PHONES (Under 992px) ---
+@media (max-width: 992px) {
+  
+  // GLOBAL FIXES
+  .quarto-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  // --- INDEX PAGE (HOME) ---
+  .index-page {
+    #hero-heading {
+      max-width: 95%;
+      margin: 40px auto;
+      text-align: center;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+
+      h1 { font-size: 2.4rem !important; }
+      .hero-icons { justify-content: center; }
+      .button { width: 100%; max-width: 300px; }
+    }
+
+    .services-grid {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px;
+      .service-card { padding: 0; }
+    }
+
+    // --- CLIENTS BAND: Background & Centering Fix ---
+    .clients-band {
+      padding: 60px 20px !important; // Increased padding for a better look
+      background: #E6F2F0 !important;
+      width: 100vw !important;
+      position: relative !important;
+      left: 50% !important;
+      right: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
+
+      .clients-logos {
+        .quarto-layout-row {
+          display: flex !important;
+          flex-direction: row !important; 
+          flex-wrap: wrap !important;     
+          justify-content: center !important;
+          align-items: center !important;
+          gap: 30px !important; 
+        }
+
+        .quarto-layout-cell {
+          width: 28% !important; 
+          min-width: 80px !important;
+          flex: 0 0 auto !important;
+          display: flex !important;
+          justify-content: center !important;
+          margin: 0 !important;
+
+          img {
+            height: 45px !important; 
+            width: auto !important;
+            display: block !important;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .lately-section .grid {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px;
+    }
+  }
+
+  // --- ABOUT PAGE ---
+  .about-page {
+    .about-entity {
+      display: flex !important;
+      flex-direction: column !important;
+      text-align: center;
+
+      .about-image {
+        margin: 0 auto 20px auto !important;
+        img { width: 180px !important; }
+      }
+
+      .about-links {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 15px;
+        margin-top: 20px;
+      }
+    }
+
+    .certs-container {
+      width: 100% !important;
+      margin-top: 30px !important;
+
+      .quarto-layout-panel .quarto-layout-row {
+        display: flex !important;
+        flex-direction: row !important; 
+        flex-wrap: wrap !important;     
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 15px !important;
+      }
+
+      .quarto-layout-cell {
+        width: 28% !important; 
+        min-width: 80px !important; 
+        flex: 0 0 auto !important;
+        display: flex !important;
+        justify-content: center !important;
+
+        img {
+          height: 45px !important; 
+          width: auto !important;
+          display: block !important;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  // --- CONTACT PAGE ---
+  .contact-page {
+    .columns {
+      display: flex !important;
+      flex-direction: column !important; 
+    }
+    .column {
+      width: 100% !important;
+      text-align: center;
+    }
+    .social-icons {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    form {
+      text-align: left;
+      button[type="submit"] { width: 100%; }
+    }
+    .column[width="10%"] { display: none; }
+  }
+}
+
+// --- VERY SMALL PHONES (Under 576px) ---
+@media (max-width: 576px) {
+  .index-page #hero-heading h1 { font-size: 1.9rem !important; }
+  
+  .about-page .quarto-layout-cell,
+  .index-page .clients-band .quarto-layout-cell {
+    width: 40% !important; 
+  }
+}

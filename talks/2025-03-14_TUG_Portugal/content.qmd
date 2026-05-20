@@ -5,7 +5,7 @@ author: "Flavio Matos"
 date: "March 14, 2025"
 categories: [Best Practices, Community Spotlight, Community-Led]
 event: "TUG Lisbon, Online"
-image: "cover_image.png"
+image: "cover_image.jpg"
 video-url: https://www.youtube.com/watch?v=T1uvxosrHHA 
 format: html
 ---

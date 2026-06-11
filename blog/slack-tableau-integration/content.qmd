@@ -1,0 +1,87 @@
+---
+title: "Slack & Tableau Integration"
+description: "In this post, I'll share some tips and tricks on how to use colours with purpose in your Dashboards."
+author: "Flavio Matos"
+date: "Jun 10, 2026"
+categories: [Tableau, Slack, Automation]
+image: preview_image.jpg
+---
+
+<br> Connecting **Tableau Server** with **Slack** can transform the way you and your team work, making it easier to share information and collaborate directly within Slack.
+
+Some of the benefits of this integration include:
+
+*•* **Setup Alerts:** Monitor KPIs directly in Slack.
+
+*•* **Real-Time Collaboration:** Share insights for instant discussion.
+
+*•* **Faster Decision-Making:** Access critical data without even opening Tableau Server.
+
+> To configure the integration between **Tableau Server** and **Slack**, you must have administrator permissions on both platforms.
+
+Before starting this tutorial, it is important to remember that connecting Tableau Server to Slack requires **creating a Slack application** first. It may seem complicated, but by following the step-by-step instructions below, you will see that it is quite simple.
+
+## How to Create a Slack App
+
+**1.** Go to the [Slack API documentation](https://api.slack.com/apps), click **Create New App**, and select the **From Scratch** option.
+
+![](1.png){fig-align="center" width="671"}
+
+![](2.png){fig-align="center" width="671"}
+
+\
+**2.** Choose a **name** for the app, select a **workspace**, and click **Create App**.
+
+![](3.png){fig-align="center" width="671"}
+
+\
+**3.** In the side menu, go to **App Home** and click **Review Scopes to Add.**
+
+![](4.png){fig-align="center" width="671"}
+
+\
+**4.** Scroll down to the **Scopes** section and, under **Bot Token Scopes**, click **Add an OAuth Scope**. Then select the following permissions:\
+   • chat:write\
+   • files:write\
+   • users:read\
+   • users:read.email\
+
+![](5.png){fig-align="center" width="671"}
+
+\
+**5.** In the side menu, select **OAuth & Permissions** and scroll down to the **Redirect URL** section.\
+   Click **Add New Redirect URL** and enter the URL of the Tableau Server you want to connect, using the following format:\
+   **https://**\<Tableau Server URL\>**/auth/add_oauth_token**
+
+![](6.png){fig-align="center" width="671"}
+
+\
+\
+**6.** Select **Basic Information** from the side menu and copy or save the following details:\
+   • Client ID\
+   • Client Secret\
+   • Redirect URL entered in the previous step\
+\
+You will need this information shortly.
+
+![](7.png){fig-align="center" width="671"}
+
+\
+\
+**7.** Click **Install App** and then the green **Install to \<Your Workspace\>** button.\
+Slack will ask for permission to allow the app to access your company workspace. If you agree, click **Allow**.\
+
+![](8.png){fig-align="center" width="671"}
+
+![](9.png){fig-align="center" width="671"}
+
+\
+Done! You will see a message confirming that the app has been installed successfully.\
+
+Now we need to connect Tableau Server to the app we just created.How to prepare to the exam
+
+### 📱Social media
+
+You can find me on [LinkedIn](https://www.linkedin.com/in/flavio-matos/) and [Twitter](https://twitter.com/flaviomatos_uk)
+
+Check out my portfolio on [Tableau Public](https://public.tableau.com/app/profile/flavio.matos)

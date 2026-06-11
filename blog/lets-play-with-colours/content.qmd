@@ -5,6 +5,7 @@ author: "Flavio Matos"
 date: "May 20, 2026"
 categories: [Tableau, Best Practices, Design]
 image: preview_image.jpg
+draft: true
 ---
 
 <br> 

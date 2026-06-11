@@ -4,7 +4,7 @@ description: "In this post, I'll share some insights into the exam and how I pre
 author: "Flavio Matos"
 date: "April 18, 2024"
 categories: [AWS, Certification, Cloud Computing]
-image: preview_image.png
+image: preview_image.jpg
 ---
 
 <br> If you've come across this post, chances are you're considering taking the **AWS Cloud Practitioner** certification or you've already done so. This marks the beginning of my journey towards the AWS Data Engineer Certification, which is my ultimate goal. Every journey starts with a single step, and for me, it's the AWS Cloud Practitioner certification.

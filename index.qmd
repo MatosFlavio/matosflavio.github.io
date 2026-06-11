@@ -3,7 +3,7 @@ title: ""
 about:
   id: hero-heading
   template: solana
-  image: images/flavio_headshot_bluebg.png
+  image: images/flavio_headshot_bluebg.jpg
   image-width: 21em
   image-shape: round
 listing:

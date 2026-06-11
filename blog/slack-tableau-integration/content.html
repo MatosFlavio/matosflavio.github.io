@@ -8,7 +8,7 @@
 
 <meta name="author" content="Flavio Matos">
 <meta name="dcterms.date" content="2026-06-10">
-<meta name="description" content="In this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.">
+<meta name="description" content="Stop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.">
 
 <title>Slack &amp; Tableau Integration – Flavio Matos</title>
 <style>
@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7599aaf2c8f21ee9010738cb0cbaae3f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-193dd3ff84a0616cce393e6a5399ae0b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-aa22b3979b87661875af007507966e21.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-193dd3ff84a0616cce393e6a5399ae0b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ae5dc24a0eea5805304ea3ea51e95b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-427000e71b89b3394063b11b80afe6d5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ae5dc24a0eea5805304ea3ea51e95b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -109,10 +109,12 @@ cookieconsent.run({
 
 
 <meta property="og:title" content="Slack &amp; Tableau Integration – Flavio Matos">
-<meta property="og:description" content="In this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.">
-<meta property="og:image" content="https://MatosFlavio.github.io/matosflavio.github.io/blog/slack-tableau-integration/preview_image.jpg">
+<meta property="og:description" content="Stop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.">
+<meta property="og:image" content="https://MatosFlavio.github.io/matosflavio.github.io/blog/slack-tableau-integration/preview_image.png">
 <meta property="og:site_name" content="Flavio Matos">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image:height" content="600">
+<meta property="og:image:width" content="1075">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -335,7 +337,9 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-to-create-a-slack-app" id="toc-how-to-create-a-slack-app" class="nav-link active" data-scroll-target="#how-to-create-a-slack-app">How to Create a Slack App</a>
+  <li><a href="#how-to-create-a-slack-app" id="toc-how-to-create-a-slack-app" class="nav-link active" data-scroll-target="#how-to-create-a-slack-app">How to Create a Slack App</a></li>
+  <li><a href="#connecting-tableau-server-to-slack" id="toc-connecting-tableau-server-to-slack" class="nav-link" data-scroll-target="#connecting-tableau-server-to-slack"><strong>Connecting Tableau Server to Slack</strong></a></li>
+  <li><a href="#bonus-testing-the-integration" id="toc-bonus-testing-the-integration" class="nav-link" data-scroll-target="#bonus-testing-the-integration"><strong>Bonus: Testing the Integration</strong></a>
   <ul class="collapse">
   <li><a href="#social-media" id="toc-social-media" class="nav-link" data-scroll-target="#social-media">📱Social media</a></li>
   </ul></li>
@@ -358,7 +362,7 @@ cookieconsent.run({
 
 <div>
   <div class="description">
-    In this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.
+    Stop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.
   </div>
 </div>
 
@@ -392,90 +396,166 @@ cookieconsent.run({
 <p><em>•</em> <strong>Setup Alerts:</strong> Monitor KPIs directly in Slack.</p>
 <p><em>•</em> <strong>Real-Time Collaboration:</strong> Share insights for instant discussion.</p>
 <p><em>•</em> <strong>Faster Decision-Making:</strong> Access critical data without even opening Tableau Server.</p>
+<p><br></p>
 <blockquote class="blockquote">
 <p>To configure the integration between <strong>Tableau Server</strong> and <strong>Slack</strong>, you must have administrator permissions on both platforms.</p>
 </blockquote>
+<p><br></p>
 <p>Before starting this tutorial, it is important to remember that connecting Tableau Server to Slack requires <strong>creating a Slack application</strong> first. It may seem complicated, but by following the step-by-step instructions below, you will see that it is quite simple.</p>
+<p><br></p>
 <section id="how-to-create-a-slack-app" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-create-a-slack-app">How to Create a Slack App</h2>
 <p><strong>1.</strong> Go to the <a href="https://api.slack.com/apps">Slack API documentation</a>, click <strong>Create New App</strong>, and select the <strong>From Scratch</strong> option.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
 <strong>2.</strong> Choose a <strong>name</strong> for the app, select a <strong>workspace</strong>, and click <strong>Create App</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
 <strong>3.</strong> In the side menu, go to <strong>App Home</strong> and click <strong>Review Scopes to Add.</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
 <strong>4.</strong> Scroll down to the <strong>Scopes</strong> section and, under <strong>Bot Token Scopes</strong>, click <strong>Add an OAuth Scope</strong>. Then select the following permissions:<br>
-&nbsp;&nbsp; • chat:write<br>
+&nbsp;&nbsp; <strong>• chat:write<br>
 &nbsp;&nbsp; • files:write<br>
 &nbsp;&nbsp; • users:read<br>
-&nbsp;&nbsp; • users:read.email<br>
+&nbsp;&nbsp; • users:read.email</strong><br>
 </p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
 <strong>5.</strong> In the side menu, select <strong>OAuth &amp; Permissions</strong> and scroll down to the <strong>Redirect URL</strong> section.<br>
-&nbsp;&nbsp; Click <strong>Add New Redirect URL</strong> and enter the URL of the Tableau Server you want to connect, using the following format:<br>
-&nbsp;&nbsp; <strong>https://</strong>&lt;Tableau Server URL&gt;<strong>/auth/add_oauth_token</strong></p>
+&nbsp;&nbsp; Click <strong>Add New Redirect URL</strong> and enter the URL of the Tableau Server you want to connect, using the following format: <strong>https://</strong>&lt;Tableau Server URL&gt;<strong>/auth/add_oauth_token</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
-<br>
 <strong>6.</strong> Select <strong>Basic Information</strong> from the side menu and copy or save the following details:<br>
 &nbsp;&nbsp; • Client ID<br>
 &nbsp;&nbsp; • Client Secret<br>
 &nbsp;&nbsp; • Redirect URL entered in the previous step<br>
 <br>
-You will need this information shortly.</p>
+⚠️ <strong>You will need this information shortly</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
-<br>
 <strong>7.</strong> Click <strong>Install App</strong> and then the green <strong>Install to &lt;Your Workspace&gt;</strong> button.<br>
 Slack will ask for permission to allow the app to access your company workspace. If you agree, click <strong>Allow</strong>.<br>
 </p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="8.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="671"></p>
+<p><img src="9.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
 <p><br>
 Done! You will see a message confirming that the app has been installed successfully.<br>
 </p>
-<p>Now we need to connect Tableau Server to the app we just created.How to prepare to the exam</p>
+<p>Now we need to connect Tableau Server to the app we just created.</p>
+<p><br></p>
+</section>
+<section id="connecting-tableau-server-to-slack" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-tableau-server-to-slack"><strong>Connecting Tableau Server to Slack</strong></h2>
+<p><br>
+1. In <strong>Tableau Server</strong>, click <strong>Settings</strong> in the side menu and then select the <strong>Integrations</strong> tab.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="18.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p><br>
+2. Under <strong>Slack Connectivity</strong>, click <strong>Add OAuth Client</strong> and enter the information you copied in step 6:<br>
+&nbsp;&nbsp; <strong>•</strong> Client ID<br>
+&nbsp;&nbsp; <strong>•</strong> Client Secret<br>
+&nbsp;&nbsp; <strong>•</strong> Redirect URL<br>
+<br>
+Then click <strong>Add OAuth Client</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="19.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p><br>
+3. You will see the <strong>Connection Type</strong> and <strong>Client ID</strong> listed in the table below. Click <strong>Connect to Slack</strong>.<br>
+<br>
+A new window will appear asking you to approve the permissions required to connect Tableau Server to Slack. If you agree, click <strong>Allow</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="20.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="21.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p>Done! Your <strong>Tableau Slack App</strong> is now created and connected to <strong>Tableau Server</strong>.</p>
+<p><br></p>
+</section>
+<section id="bonus-testing-the-integration" class="level2">
+<h2 class="anchored" data-anchor-id="bonus-testing-the-integration"><strong>Bonus: Testing the Integration</strong></h2>
+<p><br>
+1. Open <strong>Slack</strong>, click <strong>Add Apps</strong>, and select the app we just created (in this example, <strong>Tableau Server App</strong>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="22.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="23.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p><br>
+2. To test the integration, open any view in <strong>Tableau Server</strong> and click <strong>Share</strong>.</p>
+<p>Select yourself as the recipient and add a message (optional).<br>
+<br>
+⚠️ <strong>Important: The email address used in Tableau Server must be the same as the one registered in Slack.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="24.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p><br>
+3. You will receive a Slack notification informing you that you have a message from the Tableau App.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="25.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p>And that concludes our tutorial on how to integrate <strong>Tableau Server</strong> with <strong>Slack</strong>!<br>
+<br>
+I hope you found this guide useful. Let me know in the comments if it worked for you, and if you have any questions, feel free to leave a comment!<br>
+</p>
+<hr>
 <section id="social-media" class="level3">
 <h3 class="anchored" data-anchor-id="social-media">📱Social media</h3>
 <p>You can find me on <a href="https://www.linkedin.com/in/flavio-matos/">LinkedIn</a> and <a href="https://twitter.com/flaviomatos_uk">Twitter</a></p>

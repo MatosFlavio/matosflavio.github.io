@@ -4,7 +4,7 @@ description: "Stop chasing dashboards. Learn how to connect Tableau with Slack t
 author: "Flavio Matos"
 date: "Jun 10, 2026"
 categories: [Tableau, Slack, Automation]
-image: preview_image.png
+image: preview_image1.png
 ---
 
 <br> Connecting **Tableau Server** with **Slack** can transform the way you and your team work, making it easier to share information and collaborate directly within Slack.

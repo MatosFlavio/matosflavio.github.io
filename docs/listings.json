@@ -2,6 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/slack-tableau-integration/content.html",
+      "/blog/lets-play-with-colours/content.html",
       "/blog/cloud-computing-for-dummies/content.html",
       "/blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html"
     ]

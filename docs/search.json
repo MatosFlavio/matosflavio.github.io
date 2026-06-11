@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "What the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "license.html",
@@ -249,7 +249,7 @@
     "href": "blog/lets-play-with-colours/content.html",
     "title": "Let’s play with colours",
     "section": "",
-    "text": "If you’ve come across this post, chances are you’re considering taking the AWS Cloud Practitioner certification or you’ve already done so. This marks the beginning of my journey towards the AWS Data Engineer Certification, which is my ultimate goal. Every journey starts with a single step, and for me, it’s the AWS Cloud Practitioner certification.\nThe idea of getting the AWS Cloud Practitioner certification began with a simple desire to understand more about cloud computing. It all started when we had a session on AWS Cloud Services at the The Data School UK . Knowing the importance of cloud services like Amazon Web Services (AWS) , Microsoft Azure , or Google Cloud for future clients, I was eager to explore more the subject."
+    "text": "Coming Soon!\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public\n\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/lets-play-with-colours/content.html#the-exam",
@@ -284,6 +284,27 @@
     "href": "blog/slack-tableau-integration/content.html#how-to-create-a-slack-app",
     "title": "Slack & Tableau Integration",
     "section": "How to Create a Slack App",
-    "text": "How to Create a Slack App\n1. Go to the Slack API documentation, click Create New App, and select the From Scratch option.\n\n\n\n\n\n\n\n\n\n\n\n2. Choose a name for the app, select a workspace, and click Create App.\n\n\n\n\n\n\n3. In the side menu, go to App Home and click Review Scopes to Add.\n\n\n\n\n\n\n4. Scroll down to the Scopes section and, under Bot Token Scopes, click Add an OAuth Scope. Then select the following permissions:\n   • chat:write\n   • files:write\n   • users:read\n   • users:read.email\n\n\n\n\n\n\n\n5. In the side menu, select OAuth & Permissions and scroll down to the Redirect URL section.\n   Click Add New Redirect URL and enter the URL of the Tableau Server you want to connect, using the following format:\n   https://&lt;Tableau Server URL&gt;/auth/add_oauth_token\n\n\n\n\n\n\n\n6. Select Basic Information from the side menu and copy or save the following details:\n   • Client ID\n   • Client Secret\n   • Redirect URL entered in the previous step\n\nYou will need this information shortly.\n\n\n\n\n\n\n\n7. Click Install App and then the green Install to &lt;Your Workspace&gt; button.\nSlack will ask for permission to allow the app to access your company workspace. If you agree, click Allow.\n\n\n\n\n\n\n\n\n\n\n\n\nDone! You will see a message confirming that the app has been installed successfully.\n\nNow we need to connect Tableau Server to the app we just created.How to prepare to the exam\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
+    "text": "How to Create a Slack App\n1. Go to the Slack API documentation, click Create New App, and select the From Scratch option.\n\n\n\n\n\n\n\n\n\n\n\n2. Choose a name for the app, select a workspace, and click Create App.\n\n\n\n\n\n\n3. In the side menu, go to App Home and click Review Scopes to Add.\n\n\n\n\n\n\n4. Scroll down to the Scopes section and, under Bot Token Scopes, click Add an OAuth Scope. Then select the following permissions:\n   • chat:write\n   • files:write\n   • users:read\n   • users:read.email\n\n\n\n\n\n\n\n5. In the side menu, select OAuth & Permissions and scroll down to the Redirect URL section.\n   Click Add New Redirect URL and enter the URL of the Tableau Server you want to connect, using the following format: https://&lt;Tableau Server URL&gt;/auth/add_oauth_token\n\n\n\n\n\n\n6. Select Basic Information from the side menu and copy or save the following details:\n   • Client ID\n   • Client Secret\n   • Redirect URL entered in the previous step\n\n⚠️ You will need this information shortly.\n\n\n\n\n\n\n7. Click Install App and then the green Install to &lt;Your Workspace&gt; button.\nSlack will ask for permission to allow the app to access your company workspace. If you agree, click Allow.\n\n\n\n\n\n\n\n\n\n\n\n\nDone! You will see a message confirming that the app has been installed successfully.\n\nNow we need to connect Tableau Server to the app we just created."
+  },
+  {
+    "objectID": "blog/slack-tableau-integration/content.html#connecting-tableau-server-to-slack",
+    "href": "blog/slack-tableau-integration/content.html#connecting-tableau-server-to-slack",
+    "title": "Slack & Tableau Integration",
+    "section": "Connecting Tableau Server to Slack",
+    "text": "Connecting Tableau Server to Slack\n\n1. In Tableau Server, click Settings in the side menu and then select the Integrations tab.\n\n\n\n\n\n\n2. Under Slack Connectivity, click Add OAuth Client and enter the information you copied in step 6:\n   • Client ID\n   • Client Secret\n   • Redirect URL\n\nThen click Add OAuth Client.\n\n\n\n\n\n\n3. You will see the Connection Type and Client ID listed in the table below. Click Connect to Slack.\n\nA new window will appear asking you to approve the permissions required to connect Tableau Server to Slack. If you agree, click Allow.\n\n\n\n\n\n\n\n\n\n\nDone! Your Tableau Slack App is now created and connected to Tableau Server."
+  },
+  {
+    "objectID": "blog/slack-tableau-integration/content.html#bonus-testing-the-integration",
+    "href": "blog/slack-tableau-integration/content.html#bonus-testing-the-integration",
+    "title": "Slack & Tableau Integration",
+    "section": "Bonus: Testing the Integration",
+    "text": "Bonus: Testing the Integration\n\n1. Open Slack, click Add Apps, and select the app we just created (in this example, Tableau Server App).\n\n\n\n\n\n\n\n\n\n\n\n2. To test the integration, open any view in Tableau Server and click Share.\nSelect yourself as the recipient and add a message (optional).\n\n⚠️ Important: The email address used in Tableau Server must be the same as the one registered in Slack.\n\n\n\n\n\n\n3. You will receive a Slack notification informing you that you have a message from the Tableau App.\n\n\n\n\n\nAnd that concludes our tutorial on how to integrate Tableau Server with Slack!\n\nI hope you found this guide useful. Let me know in the comments if it worked for you, and if you have any questions, feel free to leave a comment!\n\n\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
+  },
+  {
+    "objectID": "blog/slack-tableau-integration/content.html#social-media",
+    "href": "blog/slack-tableau-integration/content.html#social-media",
+    "title": "Slack & Tableau Integration",
+    "section": "Social media",
+    "text": "Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
   }
 ]

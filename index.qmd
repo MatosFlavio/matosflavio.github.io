@@ -67,8 +67,8 @@ Building data solutions aligned with your business goals.
 {{< iconify simple-icons tableau size=2x >}} {{< iconify simple-icons powerbi size=2x >}} {{< iconify fa6-solid database size=2x >}} {{< iconify fa6-brands python size=2x >}} {{< iconify simple-icons dbt size=2x >}} {{< iconify fa6-solid file-excel size=2x >}}
 :::
 
-<a href="contact.qmd" 
-class="button"> Contact Me </a>
+<a href="https://calendly.com/flavio-matos-usp/30min" class="button me-2"> Book a Call </a>
+<a href="contact.qmd" class="button"> Contact Me </a>
 ::::
 
 :::: clients-band

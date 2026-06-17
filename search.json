@@ -182,6 +182,76 @@
     "text": "If you are interested in data analytics consultation, data analysis services, or personalized training, please reach out to me here and I will get back to you as soon as possible. I look forward to hearing from you!\n\n\n  \n  \n  \n\n\n\n\n\nYour Name \nEmail \nMessage\n\n\nSubmit\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "blog/lets-play-with-colours/content.html",
+    "href": "blog/lets-play-with-colours/content.html",
+    "title": "Let’s play with colours",
+    "section": "",
+    "text": "How many of you have seen a chart with green for profit, and red for loss? I’m definitely in that group!\nThe concept is so familiar and widespread that we rarely stop to think (or want to spend time thinking) about colour. But colour can be your greatest ally or your worst enemy.\nSo, here’s a guide that will help you use colour smartly, without spending hours agonising over it.\nLet’s start with the obvious question:"
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#why-use-colour-at-all",
+    "href": "blog/lets-play-with-colours/content.html#why-use-colour-at-all",
+    "title": "Let’s play with colours",
+    "section": "Why use colour at all?",
+    "text": "Why use colour at all?\nThe most direct answer is that colours help us identify differences quickly and easily. Our eyes are wired to spot contrasts by colour almost instantly.\nSo, when a CFO glances at your dashboard, it takes them less than a second to understand whether the result is good or bad, and what action to take next.\nA quick (and fun… well, kind of fun) way to see this in action is to compare how easily you can spot how many number 9s there are in the image.\nNotice how effortless it is to identify 9s through colour contrast, highlighting only the information that matter.\n\n\n\n\n\n\n\n\n\n\nGreat! Now we know why it’s important. Let’s focus on how to use it. Here are some best practices that, if you follow them, will put you ahead of 95% of people who just slap red/green on everything.\n\nQuick note: At the end of this article I’ll show you exactly why you should avoid using green/red in your reports."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#be-consistent",
+    "href": "blog/lets-play-with-colours/content.html#be-consistent",
+    "title": "Let’s play with colours",
+    "section": "1. Be Consistent",
+    "text": "1. Be Consistent\nThe first rule of thumb: be consistent with your colours. If you’re building a report showing numbers for Apples and Oranges, stick to the same colours for each category throughout the entire report."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#use-brand-guidelines",
+    "href": "blog/lets-play-with-colours/content.html#use-brand-guidelines",
+    "title": "Let’s play with colours",
+    "section": "2. Use Brand Guidelines",
+    "text": "2. Use Brand Guidelines\nYou don’t need to reinvent the wheel. You can (and sometimes must) use brand guidelines and colour palettes. This is a huge time-saver (a lifesaver too).\nFollowing a brand’s colour palette makes your reports and dashboards feel familiar, gives them a brand identity, and saves you from making an embarrassing mistake.\nI doubt that red means something negative for Coca-Cola, Netflix or China!\nStarbucks 2026 Annual Report\n\n\n\n\n\nPremier League Annual Report 2024/25"
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#use-colours-sparingly-unless-its-carnival",
+    "href": "blog/lets-play-with-colours/content.html#use-colours-sparingly-unless-its-carnival",
+    "title": "Let’s play with colours",
+    "section": "3. Use Colours Sparingly… Unless It’s Carnival",
+    "text": "3. Use Colours Sparingly… Unless It’s Carnival\nDon’t crowd your dashboards with 12+ different colours. Use them sparingly.\nThe worst data visualisation you can create is one where every value or category gets its own colour. That’s just colourful, not insightful.\nColour should guide attention and highlight what matters. Everything else can stay neutral."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#use-colour-with-intention-but-i-hope-your-intentions-are-good",
+    "href": "blog/lets-play-with-colours/content.html#use-colour-with-intention-but-i-hope-your-intentions-are-good",
+    "title": "Let’s play with colours",
+    "section": "4. Use Colour with Intention… But I Hope Your Intentions Are Good!",
+    "text": "4. Use Colour with Intention… But I Hope Your Intentions Are Good!\nThis tip is gold, and incredibly powerful. You can take a single chart and tell 3 completely different stories, just by highlighting different elements. Being intentional with colour is a way of telling your audience what matters most.\nBut, as Uncle Ben told Spider-Man Peter Parker: with great power comes great responsibility.\nYou can draw attention to exactly what you want to emphasize, which also means you can guide your audience toward a particular conclusion. Use that power wisely. You’re a data warrior, not a data villain!\nIn the example below, the authors wanted to draw attention to the fact that 48-month lease units decreased by 36%. However, you can notice that 12-month lease units decreased a bit less, by about 26%, while cash purchases still grew by 10%.\nThe way you present the data depends on the story you want to tell and what is most relevant to your audience. This should guide where you choose to focus their attention.\n\n\n\n\n\nGreat! Now you have 4 golden tips to use in your dashboards! Tips that will help you stand out from 95% of other dashboards, save time picking colours, and prove your point by being intentional.\nNow let’s talk about what colours to use."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#colour-palette-types",
+    "href": "blog/lets-play-with-colours/content.html#colour-palette-types",
+    "title": "Let’s play with colours",
+    "section": "5. Colour Palette types",
+    "text": "5. Colour Palette types\nThere are essentially 3 types of colour palette you need to know when building your reports: sequential, divergent, and discrete.\n\nA. Sequential\nUse a sequential colour palette for continuous data, things like temperature, distance, height, weight, and so on. Because the data is continuous, the colours should be too, and we typically use gradients to represent that continuity.\n\n\n\n\n\n\n\nB. Divergent\nStill within continuous data, divergent palettes work best when you need to show contrast or when there’s a meaningful midpoint.\nThey’re great for displaying negative and positive numbers, with zero as the centre or for showing variations around a median.\nTemperature (in Celsius) is a classic use case, as is any metric where the middle point is just as meaningful as the extremes.\n\n\n\n\n\n\n\nC. Discrete\nDiscrete colour palettes are for categorical data, dimensions and groups that represent fundamentally different things. The goal here is to help your audience immediately see what belongs to what.\nDiscrete palettes work in almost any chart type: pie charts (each slice gets its own colour), donut charts, bar charts, line charts with multiple series, and even binary cases like achieved/not achieved, true/false, in/out.\n\nBut wait…here’s the trap! Discrete palettes are incredibly versatile, but this is also where most people forget the “use colours sparingly” rule.\nWhen you have more than 6 categories and assign a different colour to each one, your dashboard starts to look like a Carnival poster or a painting from MoMA.\nYou do not want to be that person.\nYou do not want to be that person. (I wrote that twice so it really sinks in).\nOk, but, what if I’m building a chart with all the countries in the world, nearly 200 of them? Great question!\nYou can easily group them: by the 5 continents, OECD membership, BRICS, or any other meaningful grouping. Here is an examples of using discrete colours sparingly even with many dimensions:"
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#one-last-thing-accessibility",
+    "href": "blog/lets-play-with-colours/content.html#one-last-thing-accessibility",
+    "title": "Let’s play with colours",
+    "section": "One Last Thing: Accessibility",
+    "text": "One Last Thing: Accessibility\nNow you know everything about colour palettes, but before you head to LinkedIn to announce that you’re the Van Gogh of dataviz, we need to talk about accessibility.\nWhen building reports and dashboards, you need to ensure that everyone can access your data and read your insights.\nThat means choosing colours that are colour-blind friendly, where the contrast between colours is still clear to people with colour vision deficiencies. And yes, this is exactly why you should stop using green/red.\n\n\n\n\n\n\n\n\n\n\n\nExample of how someone with colour blindness (deuteranopia) would see the chart using red and green colours.\n\nTableau has a colour-blind friendly palette built in, but you can also check your own palette using these free tools:\n\nPilestone\nColor Oracle\nRGBlind\nCoblis\n\nBuilding your dashboards with your audience in mind not only makes you more intentional with colour choices, it also helps your ideas reach more people.\nMore people will be able to see your insights and contribute to the conversation."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#steal-like-an-artist---resources-and-references",
+    "href": "blog/lets-play-with-colours/content.html#steal-like-an-artist---resources-and-references",
+    "title": "Let’s play with colours",
+    "section": "Steal like an artist! - Resources and References",
+    "text": "Steal like an artist! - Resources and References\nLooking for colour palette inspiration? Here are some great places to start:\nBrand’s website and annual reports\nBig companies pay agencies millions to craft their colour guidelines, and you can use those for free.\nNo need to reinvent the wheel.\nPinterest and Google Images\nTry searching for a product category (like laundry detergents) and notice how the results are dominated by blues and light blues.\nWe’re already subconsciously familiar with colour associations, and you can leverage that to add context to your dataviz.\nThe real world\nGo outside! Take a walk around the block. Notice the colours around you in everyday life.\nYou’ll find that everything follows a colour pattern. Feel free to get inspired .\nThe Adobe Colour Wheel\nIf you want to create your own palette from scratch, Adobe’s Colour Wheel helps you pick combinations that actually work together, based on colour theory.\n\n\n\n\n\nAdobe also has a fantastic tool that extracts a colour theme directly from an image. If you want to use a painting (say, a Van Gogh) but aren’t sure which colours dominate or what the hex codes are, this tool does the work for you. I strongly recommend giving it a try."
+  },
+  {
+    "objectID": "blog/lets-play-with-colours/content.html#conclusion",
+    "href": "blog/lets-play-with-colours/content.html#conclusion",
+    "title": "Let’s play with colours",
+    "section": "Conclusion",
+    "text": "Conclusion\nSo now you know how to use colour in your data visualisations.\nYou won’t waste hours on it anymore, because you know there are plenty of ready-to-go references to steal out there, and you know the best practices to follow to make sure your dashboards look polished (not like a primary school art project).\nGo build your next dataviz! But keep this article handy to double-check you’re following all the tips. Your audience will thank you for it.\nAnd most importantly…please, stop using green and red. For good.\n\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
+  },
+  {
     "objectID": "blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html",
     "href": "blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html",
     "title": "How to pass the AWS Cloud Practitioner exam in 2 weeks",
@@ -235,6 +305,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]

@@ -85,7 +85,7 @@ Now we need to connect Tableau Server to the app we just created.
 
 <br>
 
-## **Connecting Tableau Server to Slack**
+## Connecting Tableau Server to Slack
 
 \
 1. In **Tableau Server**, click **Settings** in the side menu and then select the **Integrations** tab.
@@ -115,7 +115,7 @@ Done! Your **Tableau Slack App** is now created and connected to **Tableau Serve
 
 <br>
 
-## **Bonus: Testing the Integration**
+## Bonus: Testing the Integration
 
 \
 1. Open **Slack**, click **Add Apps**, and select the app we just created (in this example, **Tableau Server App**).

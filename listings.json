@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/portfolio/periodic-table-wine/content.html",
+      "/talks/2026-06-14_NYC_AI_Session/content.html",
       "/talks/2025-03-14_TUG_Portugal/content.html",
       "/talks/2025-01-22_TUG_Brazil/content.html",
       "/talks/2024-06-19_Tableau4NonProfits/content.html",
@@ -23,6 +24,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2026-06-14_NYC_AI_Session/content.html",
       "/talks/2025-03-14_TUG_Portugal/content.html",
       "/talks/2025-01-22_TUG_Brazil/content.html",
       "/talks/2024-06-19_Tableau4NonProfits/content.html",

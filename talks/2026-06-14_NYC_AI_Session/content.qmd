@@ -1,0 +1,25 @@
+---
+title: "Build a Data Quality Reviewer with Claude"
+description: "Discover how to create an app to check data quality to enhance your data analysis and ensure the accuracy of your insights."
+author: "Flavio Matos"
+date: "June 14, 2026"
+categories: [Data Quality, AI, Claude]
+event: "NYC AI Session, Online"
+image: "cover_image.png"
+video-url: https://youtu.be/q3KL24sLzCM?si=sBFaa6pvoUDyp5gd 
+format: html
+---
+
+### About the event
+
+In this short video for the **NYC AI Learning Sessions** hosted by the [Fund for the City of New York](https://www.fcny.org), I show how to build a simple Data Quality Reviewer using **Claude Artifacts** with a few prompts.
+
+With Claude Artifacts, you can create an app where someone simply uploads a file and gets a quick review of common data quality issues: missing values, incorrect data types, blank rows, and other inconsistencies that often take time to spot manually and also fix small typos and errors.
+
+It's a practical example of how anyone can use AI to automate repetitive tasks and make their day-to-day work more efficient. Building small tools like this can save time, create more consistent outputs, and even help you make better use of your AI credits for more work.
+
+💡 I hope this example inspires you to think about the small tasks in your own workflow that could become simple AI-powered apps.
+
+### Recording
+
+{{< video https://youtu.be/q3KL24sLzCM?si=sBFaa6pvoUDyp5gd >}}

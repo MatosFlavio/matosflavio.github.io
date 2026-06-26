@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHow to get your Spotify data without using API?\n\n\n\nTableau\n\nSpotify\n\nAPI\n\n\n\nDon’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "license.html",
@@ -369,5 +369,33 @@
     "title": "Build a Data Quality Reviewer with Claude",
     "section": "",
     "text": "About the event\nIn this short video for the NYC AI Learning Sessions hosted by the Fund for the City of New York, I show how to build a simple Data Quality Reviewer using Claude Artifacts with a few prompts.\nWith Claude Artifacts, you can create an app where someone simply uploads a file and gets a quick review of common data quality issues: missing values, incorrect data types, blank rows, and other inconsistencies that often take time to spot manually and also fix small typos and errors.\nIt’s a practical example of how anyone can use AI to automate repetitive tasks and make their day-to-day work more efficient. Building small tools like this can save time, create more consistent outputs, and even help you make better use of your AI credits for more work.\n💡 I hope this example inspires you to think about the small tasks in your own workflow that could become simple AI-powered apps.\n\n\nRecording\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/spotify_data_without_api/content.html",
+    "href": "blog/spotify_data_without_api/content.html",
+    "title": "How to get your Spotify data without using API?",
+    "section": "",
+    "text": "Music is a daily part of many of our lives. Wouldn’t it be cool if you could see what your music said about you this year? You don’t have to wait for your music streaming service to provide that for you anymore.\nYou can see and learn from your listening data at any point in the year using Tableau - how cool is that?\nI’ve found some tutorials teaching how to get your data from Spotify using API. To be honest, I found that a bit difficult and started to look for some work-around.\nFortunately, there is an easy way to get your data and I will share with you these 3 easy steps."
+  },
+  {
+    "objectID": "blog/spotify_data_without_api/content.html#step-1.-access-your-spotify-account",
+    "href": "blog/spotify_data_without_api/content.html#step-1.-access-your-spotify-account",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 1. Access your Spotify Account",
+    "text": "Step 1. Access your Spotify Account\nFirst, open up open.spotify.com in your web browser. Click on your name in the top right corner and then click on “Account.”"
+  },
+  {
+    "objectID": "blog/spotify_data_without_api/content.html#step-2.-request-your-data",
+    "href": "blog/spotify_data_without_api/content.html#step-2.-request-your-data",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 2. Request your data",
+    "text": "Step 2. Request your data\nNow, navigate to the left side of the page and click on “Privacy Settings.” Scroll down to the section “Download Your Data” and look toward “Account Data.” Make sure to check the box next to “Select Account data”, scroll down to the bottom of the page and click “Request Data.”"
+  },
+  {
+    "objectID": "blog/spotify_data_without_api/content.html#step-3.-verify-your-email",
+    "href": "blog/spotify_data_without_api/content.html#step-3.-verify-your-email",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 3. Verify your email",
+    "text": "Step 3. Verify your email\nNow you just need to verify your data request via your email inbox. After confirming, you should receive your account data from the previous year within the next 5 days.\nThat’s it! You did it! Now it’s your time to make an amazing viz that tells the story of your year and found insights that matter to you.\nShare you viz with your friends and don’t forget to tag me. I’ll be happy to see your viz.\nYou can check my Spotify viz here in this post and also in my Tableau Public.\n\n\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
   }
 ]

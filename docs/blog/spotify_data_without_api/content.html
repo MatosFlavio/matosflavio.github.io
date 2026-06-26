@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Flavio Matos">
+<meta name="dcterms.date" content="2024-12-13">
+<meta name="description" content="Don’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).">
 
-<title>Blog – Flavio Matos</title>
+<title>How to get your Spotify data without using API? – Flavio Matos</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,31 +29,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7599aaf2c8f21ee9010738cb0cbaae3f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b16eff5a0137ca459f74c1f1c153b805.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7599aaf2c8f21ee9010738cb0cbaae3f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3bf71e7be28cae0935ac3b4acc3dc2ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7a9a2facca42bbbc459797925d65be37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-3bf71e7be28cae0935ac3b4acc3dc2ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7599aaf2c8f21ee9010738cb0cbaae3f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b16eff5a0137ca459f74c1f1c153b805.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7599aaf2c8f21ee9010738cb0cbaae3f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3bf71e7be28cae0935ac3b4acc3dc2ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-7a9a2facca42bbbc459797925d65be37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3bf71e7be28cae0935ac3b4acc3dc2ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,35 +79,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-categories','listing-description','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y63K6B8EJ2"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -135,38 +107,10 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Blog – Flavio Matos">
-<meta property="og:image" content="./blog/slack-tableau-integration/preview_image.png">
+<meta property="og:title" content="How to get your Spotify data without using API? – Flavio Matos">
+<meta property="og:description" content="Don’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).">
+<meta property="og:image" content="preview_image.png">
 <meta property="og:site_name" content="Flavio Matos">
 <meta property="og:locale" content="en_GB">
 </head>
@@ -340,7 +284,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Flavio Matos</span>
     </a>
   </div>
@@ -351,27 +295,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
+    <a class="nav-link" href="../../portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -387,22 +331,55 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QVBJ">API <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXV0b21hdGlvbg==">Automation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QVdT">AWS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmVzdCUyMFByYWN0aWNlcw==">Best Practices <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2VydGlmaWNhdGlvbg==">Certification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xvdWQlMjBDb21wdXRpbmc=">Cloud Computing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGVzaWdu">Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2xhY2s=">Slack <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BvdGlmeQ==">Spotify <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFibGVhdQ==">Tableau <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1.-access-your-spotify-account" id="toc-step-1.-access-your-spotify-account" class="nav-link active" data-scroll-target="#step-1.-access-your-spotify-account">Step 1. Access your Spotify Account</a></li>
+  <li><a href="#step-2.-request-your-data" id="toc-step-2.-request-your-data" class="nav-link" data-scroll-target="#step-2.-request-your-data">Step 2. Request your data</a></li>
+  <li><a href="#step-3.-verify-your-email" id="toc-step-3.-verify-your-email" class="nav-link" data-scroll-target="#step-3.-verify-your-email">Step 3. Verify your email</a>
+  <ul class="collapse">
+  <li><a href="#social-media" id="toc-social-media" class="nav-link" data-scroll-target="#social-media">📱Social media</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">How to get your Spotify data without using API?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Tableau</div>
+    <div class="quarto-category">Spotify</div>
+    <div class="quarto-category">API</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Don’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Flavio Matos </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 13, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -412,166 +389,39 @@ window.Quarto = {
 </header>
 
 
+<p><br></p>
+<p>Music is a daily part of many of our lives. Wouldn’t it be cool if you could see what your music said about you this year? You don’t have to wait for your music streaming service to provide that for you anymore.</p>
+<p>You can see and learn from your listening data at any point in the year using <strong>Tableau</strong> <em>- how cool is that?</em></p>
+<p>I’ve found some tutorials teaching how to get your data from <strong>Spotify</strong> using API. To be honest, I found that a bit difficult and started to look for some work-around.</p>
+<p>Fortunately, there is an easy way to get your data and I will share with you these 3 easy steps.</p>
+<section id="step-1.-access-your-spotify-account" class="level2">
+<h2 class="anchored" data-anchor-id="step-1.-access-your-spotify-account">Step 1. Access your Spotify Account</h2>
+<p>First, open up <a href="http://open.spotify.com/">open.spotify.com</a> in your web browser. Click on your name in the top right corner and then click on <strong>“Account.”</strong></p>
+<p><img src="images/paste-1.png" class="img-fluid"></p>
+</section>
+<section id="step-2.-request-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-request-your-data">Step 2. Request your data</h2>
+<p>Now, navigate to the left side of the page and click on “<strong>Privacy Settings</strong>.” Scroll down to the section “<strong>Download Your Data</strong>” and look toward “<strong>Account Data</strong>.” Make sure to check the box next to “<strong>Select Account data</strong>”, scroll down to the bottom of the page and click “<strong>Request Data</strong>.”</p>
+<p><img src="images/paste-2.png" class="img-fluid"></p>
+</section>
+<section id="step-3.-verify-your-email" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-verify-your-email">Step 3. Verify your email</h2>
+<p>Now you just need to verify your data request via your email inbox. After confirming, you should receive your account data from the previous year within the next 5 days<em>.</em></p>
+<p>That’s it! You did it! Now it’s your time to make an amazing viz that tells the story of <strong><em>your</em></strong> year and found insights that matter to you.</p>
+<p>Share you viz with your friends and don’t forget to tag me. I’ll be happy to see your viz.</p>
+<p>You can check my Spotify viz <a href="https://www.thedataschool.co.uk/flavio-matos/my-spotify-wrapped-of-2022">here</a> in this post and also in my <a href="https://public.tableau.com/app/profile/flavio.matos?ref=thedataschool.co.uk">Tableau Public</a>.</p>
+<p><img src="images/paste-3.png" class="img-fluid"></p>
+<hr>
+<section id="social-media" class="level3">
+<h3 class="anchored" data-anchor-id="social-media">📱Social media</h3>
+<p>You can find me on <a href="https://www.linkedin.com/in/flavio-matos/">LinkedIn</a> and <a href="https://twitter.com/flaviomatos_uk">Twitter</a></p>
+<p>Check out my portfolio on <a href="https://public.tableau.com/app/profile/flavio.matos">Tableau Public</a></p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="VGFibGVhdSUyQ1NsYWNrJTJDQXV0b21hdGlvbg==" data-listing-date-sort="1781060400000" data-listing-file-modified-sort="1781370676157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="567">
-<div class="thumbnail"><a href="./blog/slack-tableau-integration/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/slack-tableau-integration/preview_image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/slack-tableau-integration/content.html" class="no-external">Slack &amp; Tableau Integration</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">Tableau</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2xhY2s='); return false;">Slack</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXV0b21hdGlvbg=='); return false;">Automation</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/slack-tableau-integration/content.html" class="no-external">
-<p>Stop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/slack-tableau-integration/content.html" class="no-external">
-<div class="listing-date">
-Jun 10, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="VGFibGVhdSUyQ0Jlc3QlMjBQcmFjdGljZXMlMkNEZXNpZ24=" data-listing-date-sort="1779246000000" data-listing-file-modified-sort="1781700448485" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1362">
-<div class="thumbnail"><a href="./blog/lets-play-with-colours/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/lets-play-with-colours/preview_image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/lets-play-with-colours/content.html" class="no-external">Let’s play with colours</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">Tableau</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmVzdCUyMFByYWN0aWNlcw=='); return false;">Best Practices</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVzaWdu'); return false;">Design</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/lets-play-with-colours/content.html" class="no-external">
-<p>In this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/lets-play-with-colours/content.html" class="no-external">
-<div class="listing-date">
-May 20, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="VGFibGVhdSUyQ1Nwb3RpZnklMkNBUEk=" data-listing-date-sort="1734058800000" data-listing-file-modified-sort="1782485121800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
-<div class="thumbnail"><a href="./blog/spotify_data_without_api/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/spotify_data_without_api/preview_image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/spotify_data_without_api/content.html" class="no-external">How to get your Spotify data without using API?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">Tableau</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3BvdGlmeQ=='); return false;">Spotify</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QVBJ'); return false;">API</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/spotify_data_without_api/content.html" class="no-external">
-<p>Don’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/spotify_data_without_api/content.html" class="no-external">
-<div class="listing-date">
-Dec 13, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="Q2xvdWQlMjBDb21wdXRpbmc=" data-listing-date-sort="1716260400000" data-listing-file-modified-sort="1779304795581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1069">
-<div class="thumbnail"><a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/cloud-computing-for-dummies/preview_image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">What the F* is Cloud Computing? A Straightforward Introduction</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQlMjBDb21wdXRpbmc='); return false;">Cloud Computing</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-<p>If you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/cloud-computing-for-dummies/content.html" class="no-external">
-<div class="listing-date">
-May 21, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-categories="QVdTJTJDQ2VydGlmaWNhdGlvbiUyQ0Nsb3VkJTIwQ29tcHV0aW5n" data-listing-date-sort="1713409200000" data-listing-file-modified-sort="1779306014909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="648">
-<div class="thumbnail"><a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-
-<img loading="lazy" src="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/preview_image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">How to pass the AWS Cloud Practitioner exam in 2 weeks</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QVdT'); return false;">AWS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2VydGlmaWNhdGlvbg=='); return false;">Certification</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQlMjBDb21wdXRpbmc='); return false;">Cloud Computing</div>
-
-</div>
-<div class="delink listing-description"><a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-<p>In this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html" class="no-external">
-<div class="listing-date">
-Apr 18, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -990,6 +840,38 @@ Apr 18, 2024
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "MatosFlavio/matosflavio-website-giscus";
+    script.dataset.repoId = "R_kgDORotb7A";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDORotb7M4C4iQt";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1033,12 +915,12 @@ Apr 18, 2024
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./license.html">
+    <a class="nav-link" href="../../license.html">
 <p>License</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../../contact.html">
 <p>Contact</p>
 </a>
   </li>  

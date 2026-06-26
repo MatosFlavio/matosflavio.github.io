@@ -105,25 +105,46 @@
     "text": "Bonus: Testing the Integration\n\n1. Open Slack, click Add Apps, and select the app we just created (in this example, Tableau Server App).\n\n\n\n\n\n\n\n\n\n\n\n2. To test the integration, open any view in Tableau Server and click Share.\nSelect yourself as the recipient and add a message (optional).\n\n⚠️ Important: The email address used in Tableau Server must be the same as the one registered in Slack.\n\n\n\n\n\n\n3. You will receive a Slack notification informing you that you have a message from the Tableau App.\n\n\n\n\n\nAnd that concludes our tutorial on how to integrate Tableau Server with Slack!\n\nI hope you found this guide useful. Let me know in the comments if it worked for you, and if you have any questions, feel free to leave a comment!\n\n\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
   },
   {
-    "objectID": "talks/2025-03-14_TUG_Portugal/content.html",
-    "href": "talks/2025-03-14_TUG_Portugal/content.html",
-    "title": "Dev Spotlight: Translating Dashboards for a Global Audience",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
     "section": "",
-    "text": "About the event\nJoin us for the very first Dev Spotlight session at the Lisbon Tableau User Group!\nHave you ever thought about bringing your insights to a wider, global audience?\nIn this session, I will demonstrate a practical way to translate dashboards and make your visualizations accessible to people all over the world. Together, we will explore how your data can “speak” different languages to amplify its impact. Of course, we will have a live Tableau demonstration so you can start applying these techniques right away!\n🚀 Don’t miss this opportunity to learn and exchange experiences with the community!\nPlease note: This event will be conducted in Portuguese.\n\n\nRecording\n\n\n\n\n\n Back to top"
+    "text": "If you are interested in data analytics consultation, data analysis services, or personalized training, please reach out to me here and I will get back to you as soon as possible. I look forward to hearing from you!\n\n\n  \n  \n  \n\n\n\n\n\nYour Name \nEmail \nMessage\n\n\nSubmit\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "talks/2024-02-29_TUG_London/content.html",
-    "href": "talks/2024-02-29_TUG_London/content.html",
-    "title": "Making Your Insights Global: The Power of Dashboard Translation",
+    "objectID": "talks/2026-06-14_NYC_AI_Session/content.html",
+    "href": "talks/2026-06-14_NYC_AI_Session/content.html",
+    "title": "Build a Data Quality Reviewer with Claude",
     "section": "",
-    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
+    "text": "About the event\nIn this short video for the NYC AI Learning Sessions hosted by the Fund for the City of New York, I show how to build a simple Data Quality Reviewer using Claude Artifacts with a few prompts.\nWith Claude Artifacts, you can create an app where someone simply uploads a file and gets a quick review of common data quality issues: missing values, incorrect data types, blank rows, and other inconsistencies that often take time to spot manually and also fix small typos and errors.\nIt’s a practical example of how anyone can use AI to automate repetitive tasks and make their day-to-day work more efficient. Building small tools like this can save time, create more consistent outputs, and even help you make better use of your AI credits for more work.\n💡 I hope this example inspires you to think about the small tasks in your own workflow that could become simple AI-powered apps.\n\n\nRecording\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "talks/2024-02-29_TUG_London/content.html#about-the-event",
-    "href": "talks/2024-02-29_TUG_London/content.html#about-the-event",
-    "title": "Making Your Insights Global: The Power of Dashboard Translation",
+    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html",
+    "href": "talks/2024-06-19_Tableau4NonProfits/content.html",
+    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
     "section": "",
-    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
+    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+  },
+  {
+    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
+    "href": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
+    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
+    "section": "",
+    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+  },
+  {
+    "objectID": "talks/2025-01-22_TUG_Brazil/content.html",
+    "href": "talks/2025-01-22_TUG_Brazil/content.html",
+    "title": "Tableau and Slack Integration",
+    "section": "",
+    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
+  },
+  {
+    "objectID": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
+    "href": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
+    "title": "Tableau and Slack Integration",
+    "section": "",
+    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
   },
   {
     "objectID": "talks/2024-01-23_TUG_Accessibility/content.html",
@@ -147,46 +168,53 @@
     "text": "Recording"
   },
   {
-    "objectID": "talks/2025-01-22_TUG_Brazil/content.html",
-    "href": "talks/2025-01-22_TUG_Brazil/content.html",
-    "title": "Tableau and Slack Integration",
+    "objectID": "talks/2024-02-29_TUG_London/content.html",
+    "href": "talks/2024-02-29_TUG_London/content.html",
+    "title": "Making Your Insights Global: The Power of Dashboard Translation",
     "section": "",
-    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
+    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
   },
   {
-    "objectID": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
-    "href": "talks/2025-01-22_TUG_Brazil/content.html#about-this-event",
-    "title": "Tableau and Slack Integration",
+    "objectID": "talks/2024-02-29_TUG_London/content.html#about-the-event",
+    "href": "talks/2024-02-29_TUG_London/content.html#about-the-event",
+    "title": "Making Your Insights Global: The Power of Dashboard Translation",
     "section": "",
-    "text": "In this session, I demonstrate how to connect Tableau Server to a Slack workspace to streamline communication and data collaboration.\nI share practical examples of how to:\n- Automate Updates: Deliver regular dashboard snapshots directly to Slack channels, replacing traditional email reports.\n- Real-time Monitoring: Configure automatic Slack alerts to track specific metrics instantly.\n- Drive Efficiency: Ensure your team has fast, integrated access to relevant data for quicker decision-making.\nJoin us to transform how you and your team work with data!\nPlease note: This event will be conducted in Portuguese."
+    "text": "Join me at TUG London to explore methods of translating dashboards to broaden your impact and connect with a diverse audience. Let your data speak to a global audience and gain insights into making your visualizations more accessible.\nIn this session, we’ll have a quick Tableau demo to get you started on the path to effective dashboard translation."
   },
   {
-    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html",
-    "href": "talks/2024-06-19_Tableau4NonProfits/content.html",
-    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
+    "objectID": "talks/2025-03-14_TUG_Portugal/content.html",
+    "href": "talks/2025-03-14_TUG_Portugal/content.html",
+    "title": "Dev Spotlight: Translating Dashboards for a Global Audience",
     "section": "",
-    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+    "text": "About the event\nJoin us for the very first Dev Spotlight session at the Lisbon Tableau User Group!\nHave you ever thought about bringing your insights to a wider, global audience?\nIn this session, I will demonstrate a practical way to translate dashboards and make your visualizations accessible to people all over the world. Together, we will explore how your data can “speak” different languages to amplify its impact. Of course, we will have a live Tableau demonstration so you can start applying these techniques right away!\n🚀 Don’t miss this opportunity to learn and exchange experiences with the community!\nPlease note: This event will be conducted in Portuguese.\n\n\nRecording\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
-    "href": "talks/2024-06-19_Tableau4NonProfits/content.html#about-the-event",
-    "title": "How to empower your Nonprofit organisation with Tableau’s data insights",
+    "objectID": "blog/spotify_data_without_api/content.html",
+    "href": "blog/spotify_data_without_api/content.html",
+    "title": "How to get your Spotify data without using API?",
     "section": "",
-    "text": "This session will explore the transformative power of data for the nonprofit sector (NGOs and NPOs). Despite data being an invaluable asset, many organizations struggle to harness its potential due to limited tools and resources.\nKey topics covered include the impact of visual analytics on:\n\nStrategic Fundraising: Identifying donor trends and campaign opportunities.\nImpact Reporting: Transparently communicating results to stakeholders.\nOperational Efficiency: Monitoring daily activities to maximize mission impact.\n\nThe event features a case study on REACH, a Cambodian charity using these insights to provide life-changing education and vocational training."
+    "text": "Music is a daily part of many of our lives. Wouldn’t it be cool if you could see what your music said about you this year? You don’t have to wait for your music streaming service to provide that for you anymore.\nYou can see and learn from your listening data at any point in the year using Tableau - how cool is that?\nI’ve found some tutorials teaching how to get your data from Spotify using API. To be honest, I found that a bit difficult and started to look for some work-around.\nFortunately, there is an easy way to get your data and I will share with you these 3 easy steps."
   },
   {
-    "objectID": "talks/2026-06-14_NYC_AI_Session/content.html",
-    "href": "talks/2026-06-14_NYC_AI_Session/content.html",
-    "title": "Build a Data Quality Reviewer with Claude",
-    "section": "",
-    "text": "About the event\nIn this short video for the NYC AI Learning Sessions hosted by the Fund for the City of New York, I show how to build a simple Data Quality Reviewer using Claude Artifacts with a few prompts.\nWith Claude Artifacts, you can create an app where someone simply uploads a file and gets a quick review of common data quality issues: missing values, incorrect data types, blank rows, and other inconsistencies that often take time to spot manually and also fix small typos and errors.\nIt’s a practical example of how anyone can use AI to automate repetitive tasks and make their day-to-day work more efficient. Building small tools like this can save time, create more consistent outputs, and even help you make better use of your AI credits for more work.\n💡 I hope this example inspires you to think about the small tasks in your own workflow that could become simple AI-powered apps.\n\n\nRecording\n\n\n\n\n\n Back to top"
+    "objectID": "blog/spotify_data_without_api/content.html#step-1.-access-your-spotify-account",
+    "href": "blog/spotify_data_without_api/content.html#step-1.-access-your-spotify-account",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 1. Access your Spotify Account",
+    "text": "Step 1. Access your Spotify Account\nFirst, open up open.spotify.com in your web browser. Click on your name in the top right corner and then click on “Account.”"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Me",
-    "section": "",
-    "text": "If you are interested in data analytics consultation, data analysis services, or personalized training, please reach out to me here and I will get back to you as soon as possible. I look forward to hearing from you!\n\n\n  \n  \n  \n\n\n\n\n\nYour Name \nEmail \nMessage\n\n\nSubmit\n\n\n\n\n Back to top"
+    "objectID": "blog/spotify_data_without_api/content.html#step-2.-request-your-data",
+    "href": "blog/spotify_data_without_api/content.html#step-2.-request-your-data",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 2. Request your data",
+    "text": "Step 2. Request your data\nNow, navigate to the left side of the page and click on “Privacy Settings.” Scroll down to the section “Download Your Data” and look toward “Account Data.” Make sure to check the box next to “Select Account data”, scroll down to the bottom of the page and click “Request Data.”"
+  },
+  {
+    "objectID": "blog/spotify_data_without_api/content.html#step-3.-verify-your-email",
+    "href": "blog/spotify_data_without_api/content.html#step-3.-verify-your-email",
+    "title": "How to get your Spotify data without using API?",
+    "section": "Step 3. Verify your email",
+    "text": "Step 3. Verify your email\nNow you just need to verify your data request via your email inbox. After confirming, you should receive your account data from the previous year within the next 5 days.\nThat’s it! You did it! Now it’s your time to make an amazing viz that tells the story of your year and found insights that matter to you.\nShare you viz with your friends and don’t forget to tag me. I’ll be happy to see your viz.\nYou can check my Spotify viz here in this post and also in my Tableau Public.\n\n\n\n📱Social media\nYou can find me on LinkedIn and Twitter\nCheck out my portfolio on Tableau Public"
   },
   {
     "objectID": "blog/lets-play-with-colours/content.html",
@@ -312,6 +340,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Slack & Tableau Integration\n\n\n\nTableau\n\nSlack\n\nAutomation\n\n\n\nStop chasing dashboards. Learn how to connect Tableau with Slack to automate your data alerts and impress your boss.\n\n\n\n\n\nJun 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s play with colours\n\n\n\nTableau\n\nBest Practices\n\nDesign\n\n\n\nIn this post, I’ll share some tips and tricks on how to use colours with purpose in your Dashboards.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHow to get your Spotify data without using API?\n\n\n\nTableau\n\nSpotify\n\nAPI\n\n\n\nDon’t wait for Spotify Wrapped. Build your own Spotify analytics dashboard today (NO API REQUIRED).\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the F* is Cloud Computing? A Straightforward Introduction\n\n\n\nCloud Computing\n\n\n\nIf you’ve ever found yourself wondering: What the heck is cloud computing? — you’re not alone. Check out this blog to find out more about this buzzword!\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow to pass the AWS Cloud Practitioner exam in 2 weeks\n\n\n\nAWS\n\nCertification\n\nCloud Computing\n\n\n\nIn this post, I’ll share some insights into the exam and how I prepared for it in just 2 weeks.\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]

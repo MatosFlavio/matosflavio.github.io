@@ -1,0 +1,12 @@
+---
+title: "Finance - Budget Management"
+author: "Flavio Matos"
+date: "July 21, 2026"
+image: preview_image.png
+categories: [Tableau, Figma, Business]
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+---
+

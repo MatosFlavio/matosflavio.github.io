@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/portfolio/finance-budget-management/content.html",
       "/portfolio/periodic-table-wine/content.html",
       "/talks/2026-06-14_NYC_AI_Session/content.html",
       "/talks/2025-03-14_TUG_Portugal/content.html",
@@ -14,12 +15,6 @@
       "/blog/spotify_data_without_api/content.html",
       "/blog/cloud-computing-for-dummies/content.html",
       "/blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html"
-    ]
-  },
-  {
-    "listing": "/portfolio.html",
-    "items": [
-      "/portfolio/periodic-table-wine/content.html"
     ]
   },
   {
@@ -41,6 +36,13 @@
       "/blog/spotify_data_without_api/content.html",
       "/blog/cloud-computing-for-dummies/content.html",
       "/blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/finance-budget-management/content.html",
+      "/portfolio/periodic-table-wine/content.html"
     ]
   }
 ]

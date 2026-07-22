@@ -8,5 +8,16 @@ format:
   html: 
     page-layout: full
 title-block-banner: false
+toc: false
+---
 ---
 
+```{=html}
+<div style="position: relative; width: 100%; padding-top: 85.7%; overflow: hidden;">
+  <iframe
+    src="https://public.tableau.com/views/Financials-BudgetManagement/Date?:showVizHome=no&:embed=true&:language=en-GB&:toolbar=yes"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    allowfullscreen>
+  </iframe>
+</div>
+```

@@ -158,7 +158,7 @@
     "href": "index.html#latest-work",
     "title": "Turning complex data into answers that drive business decisions",
     "section": "Latest work",
-    "text": "Latest work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nFinance - Budget Management\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nBuild a Data Quality Reviewer with Claude\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSlack & Tableau Integration\n\n\n\n\n\nNo matching items\n\nSee all →"
+    "text": "Latest work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nHR Management - Overview\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nBuild a Data Quality Reviewer with Claude\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSlack & Tableau Integration\n\n\n\n\n\nNo matching items\n\nSee all →"
   },
   {
     "objectID": "blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html",
@@ -207,7 +207,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "The Periodic Table of Wine\n\n\n\nTableau\n\nAI\n\nFigma\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinance - Budget Management\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "The Periodic Table of Wine\n\n\n\nTableau\n\nAI\n\nFigma\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHR Management - Overview\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\n\n\n\n\nJul 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinance - Budget Management\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "blog/slack-tableau-integration/content.html",
@@ -404,5 +404,26 @@
     "title": "Finance - Budget Management",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "portfolio/hr-management-overview/content.html",
+    "href": "portfolio/hr-management-overview/content.html",
+    "title": "HR Management - Overview",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "portfolio/hr-management-overview/content.html#recording",
+    "href": "portfolio/hr-management-overview/content.html#recording",
+    "title": "HR Management - Overview",
+    "section": "Recording",
+    "text": "Recording\nSure — here's the whole thing you can paste in, from the top of the file.\n\nmarkdown\n---\ntitle: \"My Portfolio\"\ntoc: false\n---\n\n## HR Management Dashboard\n\n```{=html}"
+  },
+  {
+    "objectID": "portfolio/hr-management-overview/content.html#hr-management-dashboard",
+    "href": "portfolio/hr-management-overview/content.html#hr-management-dashboard",
+    "title": "HR Management - Overview",
+    "section": "## HR Management Dashboard",
+    "text": "## HR Management Dashboard"
   }
 ]

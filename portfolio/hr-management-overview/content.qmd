@@ -13,12 +13,12 @@ toc: false
 
 ---
 
+::: {.column-screen-inset}
 ```{=html}
-<div style="position: relative; width: 100%; padding-top: 85.7%; overflow: hidden;">
-  <iframe
-    src="https://public.tableau.com/views/HRManagement-Overview/Overview?:showVizHome=no&:embed=true&:language=en-GB&:toolbar=no"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-    allowfullscreen>
-  </iframe>
-</div>
+<iframe src="https://public.tableau.com/views/HRManagement-Overview/Overview?:showVizHome=no&:embed=true"
+        width="100%" 
+        height="850px" 
+        style="border:none;">
+</iframe>
 ```
+:::

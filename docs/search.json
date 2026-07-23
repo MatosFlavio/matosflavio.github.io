@@ -158,7 +158,7 @@
     "href": "index.html#latest-work",
     "title": "Turning complex data into answers that drive business decisions",
     "section": "Latest work",
-    "text": "Latest work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nHR Management - Overview\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nBuild a Data Quality Reviewer with Claude\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSlack & Tableau Integration\n\n\n\n\n\nNo matching items\n\nSee all →"
+    "text": "Latest work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nHR Management - Employees\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nBuild a Data Quality Reviewer with Claude\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nSlack & Tableau Integration\n\n\n\n\n\nNo matching items\n\nSee all →"
   },
   {
     "objectID": "blog/how-to-pass-AWS-Cloud-Pratictioner-Cloud-exam/content.html",
@@ -207,7 +207,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "The Periodic Table of Wine\n\n\n\nTableau\n\nAI\n\nFigma\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHR Management - Overview\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\n\n\n\n\nJul 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinance - Budget Management\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "The Periodic Table of Wine\n\n\n\nTableau\n\nAI\n\nFigma\n\n\n\nInteractive HR dashboard analyzing employee data, turnover, and workforce trends.\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHR Management - Overview\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\nInteractive HR dashboard analyzing employee data, turnover, and workforce trends.\n\n\n\nJul 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHR Management - Employees\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\nInteractive HR dashboard analyzing employee data, turnover, and workforce trends.\n\n\n\nJul 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinance - Budget Management\n\n\n\nTableau\n\nFigma\n\nBusiness\n\n\n\nInteractive finance dashboard for budget management and financial analysis.\n\n\n\nJul 21, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "blog/slack-tableau-integration/content.html",
@@ -425,5 +425,12 @@
     "title": "HR Management - Overview",
     "section": "## HR Management Dashboard",
     "text": "## HR Management Dashboard"
+  },
+  {
+    "objectID": "portfolio/hr-employee/content.html",
+    "href": "portfolio/hr-employee/content.html",
+    "title": "HR Management - Employees",
+    "section": "",
+    "text": "Back to top"
   }
 ]

@@ -18,7 +18,7 @@ listing:
     filter-ui: false
     fields: [title, subtitle, image]
     max-items: 1
-    image-height: "200"
+    image-height: "200px"
 
   - id: talks
     contents:
@@ -31,7 +31,7 @@ listing:
     filter-ui: false
     fields: [title, subtitle, image]
     max-items: 1
-    image-height: "200"
+    image-height: "200px"
 
   - id: blog
     contents:

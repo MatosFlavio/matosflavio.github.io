@@ -43,10 +43,10 @@
   {
     "listing": "/portfolio.html",
     "items": [
-      "/portfolio/periodic-table-wine/content.html",
-      "/portfolio/hr-management-overview/content.html",
       "/portfolio/hr-employee/content.html",
-      "/portfolio/finance-budget-management/content.html"
+      "/portfolio/hr-management-overview/content.html",
+      "/portfolio/finance-budget-management/content.html",
+      "/portfolio/periodic-table-wine/content.html"
     ]
   }
 ]

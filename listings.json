@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/portfolio/hr-employee/content.html",
       "/portfolio/hr-management-overview/content.html",
       "/portfolio/finance-budget-management/content.html",
       "/portfolio/periodic-table-wine/content.html",
@@ -19,11 +20,14 @@
     ]
   },
   {
-    "listing": "/portfolio.html",
+    "listing": "/talks.html",
     "items": [
-      "/portfolio/finance-budget-management/content.html",
-      "/portfolio/periodic-table-wine/content.html",
-      "/portfolio/hr-management-overview/content.html"
+      "/talks/2026-06-14_NYC_AI_Session/content.html",
+      "/talks/2025-03-14_TUG_Portugal/content.html",
+      "/talks/2025-01-22_TUG_Brazil/content.html",
+      "/talks/2024-06-19_Tableau4NonProfits/content.html",
+      "/talks/2024-02-29_TUG_London/content.html",
+      "/talks/2024-01-23_TUG_Accessibility/content.html"
     ]
   },
   {
@@ -37,14 +41,12 @@
     ]
   },
   {
-    "listing": "/talks.html",
+    "listing": "/portfolio.html",
     "items": [
-      "/talks/2026-06-14_NYC_AI_Session/content.html",
-      "/talks/2025-03-14_TUG_Portugal/content.html",
-      "/talks/2025-01-22_TUG_Brazil/content.html",
-      "/talks/2024-06-19_Tableau4NonProfits/content.html",
-      "/talks/2024-02-29_TUG_London/content.html",
-      "/talks/2024-01-23_TUG_Accessibility/content.html"
+      "/portfolio/hr-employee/content.html",
+      "/portfolio/hr-management-overview/content.html",
+      "/portfolio/finance-budget-management/content.html",
+      "/portfolio/periodic-table-wine/content.html"
     ]
   }
 ]
